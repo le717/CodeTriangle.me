@@ -1,0 +1,33 @@
+// ------- Social icons
+.page-section.social {
+  .social-icons {
+    margin-top: 3em;
+    @extend .text-center;
+  }
+
+  a {
+    padding-right: 0.25em;
+    padding-left: 0.25em;
+    vertical-align: top;
+    color: $color-accent-second;
+    font-size: 7em;
+    @extend %no-hover;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: $color-white;
+      .text { visibility: visible; }
+    }
+  }
+
+  .icon {
+    height: 0.4em;
+    font-size: 6.5rem;
+  }
+
+  .text {
+    visibility: hidden;
+    font-size: 1.6rem;
+  }
+}

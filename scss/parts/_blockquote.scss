@@ -1,0 +1,30 @@
+// ------- Blockquotes
+blockquote {
+  padding-top: 0.7em;
+  padding-right: 1.1em;
+  padding-bottom: 0.5em;
+  padding-left: 1.55em;
+  margin-right: auto;
+  margin-left: auto;
+  width: 86%;
+
+  border-radius: 1px;
+  background-color: $color-accent-first;
+  font-size: 0.95em;
+  color: $color-text-primary;
+  quotes: "\201C""\201D""\201C""\201D";
+
+  // Flatten child elements
+  & * { display: inline; }
+  & a { color: $color-text-primary !important; }
+
+  &::before {
+    position: absolute;
+    font-style: italic;
+    font-size: 3.4em;
+    color: #979797;
+    content: open-quote;
+    margin-top: -0.5em;
+    margin-left: -0.45em;
+  }
+}
