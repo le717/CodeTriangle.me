@@ -1,0 +1,48 @@
+// ------- Projects styling
+#projects-container {
+  margin-top: 3rem;
+  @include center-horizon;
+  width: 96%;
+
+  .project-box {
+    margin: 1em auto;
+    width: 100%;
+    max-height: 4.6em;
+    overflow: hidden;
+
+    border: 1px solid $color-accent-first;
+    border-radius: 1px;
+
+    color: $color-white;
+    @extend .text-center;
+    transition: color 0.3s ease,
+                max-height 0.4s ease,
+                background-color 0.3s ease;
+    cursor: pointer;
+
+    &.visible {
+      max-height: 30em;
+      background-color: $color-accent-first;
+      color: $color-text-primary;
+    }
+
+    & > .title {
+      margin-top: 0.5em;
+      margin-bottom: 0;
+      font-size: 1.07em;
+    }
+
+    & > .date {
+      margin: 0;
+      margin-bottom: 0.5em;
+    }
+
+    & > .desc {
+      margin-right: 1em;
+      margin-left: 1em;
+      @extend .text-justify;
+
+      a { color: $color-text-primary; }
+    }
+  }
+}
