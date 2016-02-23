@@ -2,7 +2,7 @@
 
 (function() {
   "use strict";
-  var QprojectContainer = document.querySelector("#projects-container");
+  var qProjectContainer = document.querySelector("#projects-container");
 
   function findParentEle(ele, classEle) {
     // We found the desired element
@@ -13,13 +13,13 @@
     }
   }
 
-  QprojectContainer.addEventListener("click", function(e) {
+  qProjectContainer.addEventListener("click", function(e) {
     // Find the project box
-    var projectBox = findParentEle(e.target, "project-box");
+    var qProjectBox = findParentEle(e.target, "project-box");
 
     // Hide/show the clicked box
-    if (projectBox.classList.contains("project-box")) {
-      projectBox.classList.toggle("visible");
+    if (qProjectBox.classList.contains("project-box")) {
+      qProjectBox.classList.toggle("visible");
     }
   });
 }());
