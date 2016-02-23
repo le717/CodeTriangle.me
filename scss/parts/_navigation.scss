@@ -1,0 +1,62 @@
+// ------- Navigation bar styling
+.navi {
+  position: fixed;
+  top: 7.5em;
+  right: 6.4em;
+
+  z-index: 2;
+
+  // Apply flexbox only if supported
+  // This works around IE breaking the navbar
+  // with flexbox applied
+  @supports (display: flex) {
+   ul { display: flex; }
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    position: inherit;
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  li {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  // Nav icons
+  .icon {
+    font-size: 1.8em;
+    transition: transform 0.2s ease;
+    text-align: center;
+  }
+
+  // Pop-up labels
+  .text {
+    margin-top: 0.6rem;
+    position: absolute;
+    right: 3.3em;
+
+    display: none;
+    font-size: 1.15em;
+  }
+
+  // Link styling
+  a {
+    text-shadow: 1px 1px 1px $color-primary;
+    color: $color-accent-first;
+    @extend .font-normal;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: $color-white;
+      .text { display: block; }
+    }
+  }
+}
