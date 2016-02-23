@@ -29,4 +29,5 @@ $RECYCLE.BIN/
 
 build/
 node_modules/
+lib/
 Testing/
