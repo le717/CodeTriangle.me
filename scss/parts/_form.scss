@@ -1,0 +1,198 @@
+// ------- Form styling
+// Partially taken from http://codepen.io/joshadamous/pen/yyyqJZ
+form {
+  %styled-inputs {
+    padding: 0.7em;
+
+    display: inline-block;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 1px;
+
+    background-color: $color-accent-first;
+    color: $color-text-primary;
+
+    font-family: $font-stack;
+    font-size: 1em;
+
+    &:focus { outline: 2px solid #0e7af8; }
+  }
+
+  .btn {
+    margin: 0.5em;
+    margin-left: 0;
+    padding: 0.1em;
+
+    display: inline-block;
+
+    width: 4.5em;
+
+    outline: none;
+    border: none;
+    border-radius: 1px;
+
+    font-family: $font-stack;
+    font-size: 1.4em;
+    @extend .text-center;
+    color: $color-text-primary;
+
+    transition: color 0.2s ease, background-color 0.2s ease;
+    cursor: pointer;
+
+    &.submit {
+      background-color: #3317ea;
+      color: $color-accent-first;
+    }
+
+    &.cancel {
+      background-color: #e31a1a;
+      color: $color-accent-first;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: $color-accent-first;
+      color: $color-text-primary;
+    }
+  }
+
+  // Custom checkbox and radio buttons
+  // Sourced from http://www.inserthtml.com/2012/06/custom-form-radio-checkbox/
+  @each $type in (checkbox, radio) {
+    input[type="#{$type}"] {
+      margin-left: -1.3em;
+      visibility: hidden;
+
+      & + label {
+        padding: 0.6em;
+        margin-right: 0.2em;
+
+        display: inline-block;
+        position: relative;
+        vertical-align: text-top;
+
+        border-radius: 1px;
+        background-color: $color-accent-first;
+        cursor: pointer;
+      }
+    }
+
+    input[type="#{$type}"] + label:after {
+      position: absolute;
+      top: -2px;
+      left: 0.25em;
+      color: $color-text-primary;
+      opacity: 0;
+      transition: opacity 0.2s ease;
+    }
+
+    input[type="#{$type}"] + label:focus:after,
+    input[type="#{$type}"]:checked + label:focus:after,
+    input[type="#{$type}"] + label:active:after,
+    input[type="#{$type}"]:checked + label:active:after { opacity: 0.5; }
+    input[type="#{$type}"]:checked + label:after { opacity: 1; }
+  }
+
+  // Checkbox symbol
+  input[type="checkbox"] + label:after {
+    font-size: 0.95em;
+    content: "\2714";
+  }
+
+  // Raido button symbol
+  input[type="radio"] + label:after {
+    top: -5px;
+    left: 4px;
+    font-size: 1.1em;
+    // TODO I cannot get this to work
+    content: "\f1ef";
+  }
+
+  input[type="submit"],
+  input[type="cancel"] {
+    -moz-appearance: none;
+    // -webkit-appearance: none;
+    padding: 0.25em;
+  }
+
+  // Style the plain text inputs
+  $formTypes: number, email, password, text;
+  @each $type in $formTypes {
+    input[type="#{$type}"] {
+      min-width: 17em;
+      @extend %styled-inputs;
+    }
+  }
+
+  textarea {
+    min-width: 17em;
+    width: 49.5%;
+    height: 7em;
+    @extend %styled-inputs;
+  }
+
+  // Required label
+  label .required { color: #e31a1a; }
+
+  // Error message
+  .error {
+    position: absolute;
+    font-size: 0.95em;
+    color: #e31a1a;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s ease,
+      transform 0.2s ease,
+      visibility 0s ease;
+
+    &.visible {
+      visibility: visible;
+      opacity: 1;
+      transform: translate3d(0, -3em, 0);
+    }
+  }
+
+  // Bot check
+  span#not-person {
+    position: relative;
+    top: 1.4em;
+  }
+
+  .group {
+    margin-top: 4em;
+    margin-right: 1.5em;
+    position: relative;
+    display: inline-block;
+
+    &.block {
+      display: block;
+      width: 100%;
+    }
+
+    // This group contains buttons
+    &.btns { margin-top: 2em; }
+
+    label {
+      position: absolute;
+      pointer-events: none;
+      left: 0.7em;
+      color: $color-text-secondary;
+
+      transition: color 0.2s ease, transform 0.2s ease;
+    }
+
+    & > input + label { top: 0.1em; }
+    & > textarea + label { top: 0.2em; }
+  }
+
+  // Sticky label placement
+  input:focus ~ label,
+  input.filled-in ~ label,
+  textarea:focus ~ label,
+  textarea.filled-in ~ label {
+    color: $color-accent-first;
+    transform: translate3d(0, -1.8em, 0) scale(0.88);
+  }
+}
