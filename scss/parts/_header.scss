@@ -1,0 +1,43 @@
+// ------- Site header
+.header {
+  width: 100%;
+  position: relative;
+
+  #name {
+    position: relative;
+    bottom: 0.3em;
+    right: 3.05em;
+    font-size: 2.5em;
+    color: $color-text-primary;
+
+    text-align: right;
+  }
+
+  #title {
+    position: absolute;
+    top: 1.2em;
+    right: 8.4rem;
+    font-size: 1.3em;
+    color: $color-text-primary;
+  }
+
+  #logo {
+    width: 110px;
+    height: 110px;
+
+    position: fixed;
+    top: 0.2em;
+    right: 0.5em;
+
+    // SVG logo color transition
+    g {
+      transition: filter 0.2s linear, fill 0.2s linear;
+      fill: $color-text-primary;
+
+      &.light {
+        fill: $color-accent-first;
+        filter: drop-shadow(10px 10px 6px $color-primary);
+      }
+    }
+  }
+}
