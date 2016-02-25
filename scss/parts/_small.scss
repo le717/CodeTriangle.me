@@ -1,0 +1,45 @@
+// ------- Smaller screen styling
+@media (max-device-width: 800px) {
+  .header #logo {
+    position: absolute;
+    top: -1.5em;
+  }
+
+  .navi {
+    position: absolute;
+    width: 100%;
+    top: initial;
+    right: initial;
+    transition: background-color 0.2s ease;
+
+    &.scroll {
+      top: 0;
+      position: fixed;
+      background-color: rgba(61, 61, 61, 0.8);
+    }
+
+    ul {
+      position: relative;
+      flex-wrap: nowrap;
+      justify-content: unset;
+    }
+
+    a:hover,
+    a:focus,
+    a:active {
+      .text { display: none; }
+    }
+  }
+
+  .page-section > .text-content:first-of-type { margin-top: 2.5em; }
+  .page-section.social .text { visibility: visible; }
+}
+
+@media (max-device-width: 435px) {
+  .page-section > .text-content { width: 85%; }
+  .page-section:first-of-type > .text-content { margin-top: 3.5rem; }
+}
+
+@media (max-device-width: 338px) {
+  form .group { margin-right: 0; }
+}
