@@ -1,22 +1,31 @@
 // ------- Form styling
-// Partially taken from http://codepen.io/joshadamous/pen/yyyqJZ
 form {
-  %styled-inputs {
-    padding: 0.7em;
+  %styled-input {
+    padding: 0.5em;
 
-    display: inline-block;
+    max-width: 18em;
+    flex: 1;
+
     border: none;
-    outline: none;
     box-shadow: none;
-    border-radius: 1px;
+    border-radius: 0 1px 1px 0;
 
-    background-color: $color-accent-first;
+    background-color: $color-white;
     color: $color-text-primary;
 
     font-family: $font-stack;
     font-size: 1em;
 
-    &:focus { outline: 2px solid #0e7af8; }
+    // TODO Need a good :focus styling
+  }
+
+  %styled-label {
+    padding: 0.5em;
+    border: none;
+    border-radius: 1px 0 0 1px;
+
+    background-color: $color-accent-first;
+    color: $color-text-secondary;
   }
 
   .btn {
@@ -112,46 +121,16 @@ form {
 
   input[type="submit"],
   input[type="cancel"] {
-    -moz-appearance: none;
-    // -webkit-appearance: none;
+    appearance: none;
     padding: 0.25em;
   }
 
   // Style the plain text inputs
+  textarea { @extend %styled-input; }
   $formTypes: number, email, password, text;
   @each $type in $formTypes {
     input[type="#{$type}"] {
-      min-width: 17em;
-      @extend %styled-inputs;
-    }
-  }
-
-  textarea {
-    min-width: 17em;
-    width: 49.5%;
-    height: 7em;
-    @extend %styled-inputs;
-  }
-
-  // Required label
-  label .required { color: #e31a1a; }
-
-  // Error message
-  .error {
-    min-width: 19em;
-    position: absolute;
-    font-size: 0.95em;
-    color: $color-text-primary;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 0.2s ease,
-      transform 0.2s ease,
-      visibility 0s ease;
-
-    &.visible {
-      visibility: visible;
-      opacity: 1;
-      transform: translate3d(0, -3em, 0);
+      @extend %styled-input;
     }
   }
 
@@ -162,38 +141,63 @@ form {
   }
 
   .group {
-    margin-top: 4em;
-    margin-right: 1.5em;
-    position: relative;
-    display: inline-block;
-
-    &.block {
-      display: block;
-      width: 100%;
-    }
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1.5em;
 
     // This group contains buttons
     &.btns { margin-top: 2em; }
-
-    label {
-      position: absolute;
-      pointer-events: none;
-      left: 0.7em;
-      color: $color-text-secondary;
-
-      transition: color 0.2s ease, transform 0.2s ease;
-    }
-
-    & > input + label { top: 0.1em; }
-    & > textarea + label { top: 0.2em; }
   }
 
-  // Sticky label placement
-  input:focus ~ label,
-  input.filled-in ~ label,
-  textarea:focus ~ label,
-  textarea.filled-in ~ label {
-    color: $color-accent-first;
-    transform: translate3d(0, -1.8em, 0) scale(0.88);
+
+  // Prefixed form labels
+  .input-before {
+    @extend %styled-label;
+
+    // For some reason, when prefixed to a textarea,
+    // the box is 1px too large on the top and bottom.
+    // This workaround (somehow) fixes that
+    // TODO No it don't. There is now a very faint, dark line
+    // on the top and bottom.
+    &.textarea {
+      border-top: 1px solid currentcolor;
+      border-bottom: 1px solid currentcolor;
+    }
+
+    // Required label
+    & > .required { color: #e31a1a; }
+  }
+
+  // Appended form labels
+  .input-after {
+    margin-top: 0.5em;
+    margin-left: 3em;
+    padding: 0 0.2em;
+    position: absolute;
+
+    background-color: #c51212;
+    box-shadow: 0 0 2px $color-primary;
+
+    &::before {
+      content: "\25C0";
+      color: #c51212;
+      position: absolute;
+      top: -0.15em;
+      left: -0.8em;
+      font-size: 1.1em;
+    }
+  }
+
+    // Error message
+  .error {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s ease,
+      visibility 0s ease;
+
+    &.visible {
+      visibility: visible;
+      opacity: 1;
+    }
   }
 }

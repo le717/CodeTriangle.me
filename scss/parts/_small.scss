@@ -33,6 +33,14 @@
 
   .page-section > .text-content:first-of-type { margin-top: 2.5em; }
   .page-section.social .text { visibility: visible; }
+
+  // TODO Exact media query placement needs work
+  form .input-after {
+    margin-left: 0;
+    position: relative;
+
+    &::before { content: ""; }
+  }
 }
 
 @media (max-device-width: 435px) {
