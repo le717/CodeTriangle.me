@@ -1,0 +1,8 @@
+{
+  "details": {
+    "inputFile": "style.scss",
+    "outputFile": "codetriangle.min.css",
+    "style": "expanded",
+    "indented": false
+  }
+}
