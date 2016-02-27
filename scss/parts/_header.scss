@@ -29,15 +29,7 @@
     top: 0.2em;
     right: 0.5em;
 
-    // SVG logo color transition
-    g {
-      transition: filter 0.2s linear, fill 0.2s linear;
-      fill: $color-text-primary;
-
-      &.light {
-        fill: $color-accent-first;
-        filter: drop-shadow(10px 10px 6px $color-primary);
-      }
-    }
+    // Logo color
+    g { fill: $color-text-primary; }
   }
 }
