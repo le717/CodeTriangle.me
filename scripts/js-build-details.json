@@ -1,0 +1,9 @@
+{
+ "details": {
+    "outputFile": "codetriangle.min.js"
+  },
+  "exceptions": {
+    "lib": ["prism.js"],
+    "main": null
+  }
+}
