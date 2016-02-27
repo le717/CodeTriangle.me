@@ -41,7 +41,7 @@ form {
     cursor: pointer;
 
     &.submit {
-      background-color: #3317ea;
+      background-color: $color-text-primary;
       color: $color-accent-first;
     }
 
@@ -141,7 +141,7 @@ form {
     min-width: 19em;
     position: absolute;
     font-size: 0.95em;
-    color: #e31a1a;
+    color: $color-text-primary;
     visibility: hidden;
     opacity: 0;
     transition: opacity 0.2s ease,
