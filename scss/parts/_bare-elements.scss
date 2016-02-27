@@ -1,0 +1,31 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  height: 100%;
+  min-width: 320px;
+
+  // Native smooth-scrolling
+  // https://drafts.csswg.org/cssom-view/
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  background-color: #e0dbdb;
+  background-image: url("../../img/triangle-background.jpg");
+  background-attachment: fixed;
+
+  font-family: $font-stack;
+  @extend .font-normal;
+  font-size: 16px;
+  line-height: 1.7;
+  color: $color-white;
+}
+
+// Basic universal link styling, will be overwritten by children
+a { text-decoration: none; }
+
+main { height: 100%; }
