@@ -40,6 +40,14 @@
   .page-section:first-of-type > .text-content { margin-top: 3.5rem; }
 }
 
+@media (max-device-width: 372px) {
+  form .input-before.textarea {
+    position: relative;
+    top: 1px;
+    border: none;
+  }
+}
+
 @media (max-device-width: 338px) {
   form .group { margin-right: 0; }
 }
