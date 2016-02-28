@@ -1,4 +1,8 @@
 // ------- Larger screen styling
+@media (max-device-width: 1024px) {
+  form .input-after { @include form-after-below; }
+}
+
 @media (min-device-width: 800px) {
   .header #logo {
     animation: aniLogo 3s infinite;
