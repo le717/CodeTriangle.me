@@ -2,7 +2,7 @@
   "details": {
     "inputFile": "style.scss",
     "outputFile": "codetriangle.min.css",
-    "scssStyle": "expanded",
+    "scssStyle": "compressed",
     "indented": false
   }
 }
