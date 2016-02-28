@@ -156,12 +156,10 @@ form {
 
     // For some reason, when prefixed to a textarea,
     // the box is 1px too large on the top and bottom.
-    // This workaround (somehow) fixes that
-    // TODO No it don't. There is now a very faint, dark line
-    // on the top and bottom.
+    // This is a workaround to fix that
     &.textarea {
-      border-top: 1px solid currentcolor;
-      border-bottom: 1px solid currentcolor;
+      border-top: 1px solid $color-secondary;
+      border-bottom: 1px solid $color-secondary;
     }
 
     // Required label
@@ -170,34 +168,47 @@ form {
 
   // Appended form labels
   .input-after {
-    margin-top: 0.5em;
     margin-left: 3em;
     padding: 0 0.2em;
     position: absolute;
 
-    background-color: #c51212;
-    box-shadow: 0 0 2px $color-primary;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
 
     &::before {
       content: "\25C0";
-      color: #c51212;
       position: absolute;
       top: -0.15em;
-      left: -0.8em;
+      left: -0.75em;
       font-size: 1.1em;
     }
   }
 
-    // Error message
-  .error {
+  // Message display
+  %message {
+    margin-bottom: 1em;
     visibility: hidden;
     opacity: 0;
-    transition: opacity 0.2s ease,
-      visibility 0s ease;
+    transition: opacity 0.2s ease, visibility 0.1s ease;
 
     &.visible {
       visibility: visible;
       opacity: 1;
     }
+  }
+
+  // Error message
+  .error {
+    @extend %message;
+    margin-top: 0.5em;
+    background-color: #c51212;
+    &::before { color: #c51212; }
+  }
+
+  // Success message
+  .success {
+    @extend %message;
+    margin-top: 1.2em;
+    background-color: $color-text-secondary;
+    &::before { color: $color-text-secondary; }
   }
 }

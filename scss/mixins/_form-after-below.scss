@@ -1,0 +1,7 @@
+// Display the messages below the fields
+@mixin form-after-below() {
+  margin-left: 0.7em;
+  position: relative;
+
+  &::before { content: ""; }
+}
