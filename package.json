@@ -1,0 +1,30 @@
+{
+  "name": "CodeTriangle.me",
+  "version": "0.8.5",
+  "description": "My personal website.",
+  "license": "MIT",
+  "author": "Caleb Ely",
+  "homepage": "http://CodeTriangle.me",
+  "main": "index.php",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/le717/CodeTriangle.me.git"
+  },
+  "scripts": {
+    "copy:js": "node scripts/copy-js.js",
+    "build:scss": "node scripts/build-scss.js",
+    "build:js": "node scripts/build-js.js",
+    "postinstall": "npm run copy:js"
+  },
+  "dependencies": {
+    "smooth-scroll": "github:cferdinandi/smooth-scroll",
+    "classlist.js": "github:eligrey/classList.js",
+    "microajax": "github:le717/microajax#v2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.2",
+    "node-sass": "^3.4.2",
+    "postcss": "^5.0.17",
+    "uglify-js": "^2.6.2"
+  }
+}

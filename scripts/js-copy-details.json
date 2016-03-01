@@ -1,5 +1,9 @@
 [
   {
+    "from": "node_modules/classlist.js/classList.js",
+    "to": "js/lib/classList.js"
+  },
+  {
     "from": "node_modules/smooth-scroll/dist/js/smooth-scroll.js",
     "to": "js/lib/smooth-scroll.js"
   },
