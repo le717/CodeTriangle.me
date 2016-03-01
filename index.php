@@ -53,8 +53,8 @@
       </ul>
     </nav>
 
-    <!-- TODO Move into separate file -->
     <?php
+      // TODO Move into separate file
       $now = new DateTime('now', new DateTimeZone('UTC'));
       $myAge = $now->diff(new DateTime('1995-03-13'))->y;
       $yrsCoding = $now->diff(new DateTime('2013-00-26'))->y;
@@ -169,7 +169,6 @@
         <h2>This is an email form.</h2>
         <p class="dropcap">You can use it to email me with questions, concerns, bug reports (although you really should use GitHub for that), job opportunites, or other stuff. However, please tweet me if you would like to have a casual conversation. Email conversations are not in my time schedule.</p>
 
-        <!-- TODO Prevent direct access to /php -->
         <form id="form-email" name="form-email">
           <div class="group">
             <label class="input-before" for="input-name">Name <span class="required">*</span></label>
