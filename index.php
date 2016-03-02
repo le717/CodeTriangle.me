@@ -69,7 +69,7 @@
     <section class="page-section" id="portfolio">
       <div class="text-content">
         <h2>My Portfolio</h2>
-        <p class="dropcap">If you are looking for someone who can write extraordinary code, I am the developer for you! Check out my portfolio and <a data-scroll href="#contact">published code</a> to see all I have done, download my resum&eacute;, and <a href="#contact">contact me</a> today!</p>
+        <p class="dropcap">If you are looking for someone who can write extraordinary code, I am the developer for you! Check out my portfolio and <a href="https://github.com/le717">published code</a> to see all I have done, download my resum&eacute;, and <a href="#contact">contact me</a> today!</p>
         <div class="btn-cta center"><a href="portfolio/caleb-ely-resume.pdf">Resum&eacute;!</a></div>
 
         <div id="projects-container">
