@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php require '_includes/dates.php'; ?><!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -53,16 +53,9 @@
       </ul>
     </nav>
 
-    <?php
-      // TODO Move into separate file
-      $now = new DateTime('now', new DateTimeZone('UTC'));
-      $myAge = $now->diff(new DateTime('1995-03-13'))->y;
-      $yrsCoding = $now->diff(new DateTime('2013-00-26'))->y;
-    ?>
-
     <section class="page-section alt" id="summary">
       <div class="text-content">
-        <p class="text-center">A Web developer with over <span class="emphasis"><?= $yrsCoding; ?> years</span> combined experience in <span class="emphasis">Python, JavaScript, PHP</span>, and HTML/CSS/SCSS.</p>
+        <p class="text-center">A Web developer with over <span class="emphasis"><?= $ctme_yrsCoding; ?> years</span> experience in <span class="emphasis">Python, JavaScript, PHP</span>, and HTML/CSS/SCSS.</p>
       </div>
     </section>
 
@@ -120,7 +113,7 @@
     <section class="page-section alt" id="about">
       <div class="text-content">
         <h2>Who am I?</h2>
-        <p class="dropcap">I am <span class="emphasis">Caleb Ely</span>, a <?= $myAge; ?> year old programmer, Web developer, occasional video game player, and all-around technology fan harkening from Georgia, USA. I have a small blog where I predominantly write about Website design, development, and general technology. A strong supporter of open source software, I believe some of the best software currently available is open source. That is why I both actively use and contribute to open source projects as well as open sourcing the majority of my own work.</p>
+        <p class="dropcap">I am <span class="emphasis">Caleb Ely</span>, a <?= $ctme_myAge; ?> year old programmer, Web developer, occasional video game player, and all-around technology fan harkening from Georgia, USA. I have a small blog where I predominantly write about Website design, development, and general technology. A strong supporter of open source software, I believe some of the best software currently available is open source. That is why I both actively use and contribute to open source projects as well as open sourcing the majority of my own work.</p>
 
         <p>I am very detail-oriented and technical-minded, constantly seeking out good and efficient coding techniques. Because of my programming knowledge, capabilities and eagerness to learn and expand my skills, I have been called a programming reference guide!</p>
 
@@ -204,7 +197,7 @@
     </section>
 
     <footer class="footer">
-      <p><?= $now->format('Y'); ?> Caleb Ely</p>
+      <p><?= $ctme_now->format('Y'); ?> Caleb Ely</p>
     </footer>
   </main>
 
