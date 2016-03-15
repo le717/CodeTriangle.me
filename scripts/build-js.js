@@ -73,5 +73,3 @@ try {
 } catch (Error) {
   console.error("Unable to build JavaScript.");
 }
-
-process.exit(0);
