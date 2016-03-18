@@ -117,7 +117,7 @@
 
         <p>I am very detail-oriented and technical-minded, constantly seeking out good and efficient coding techniques. Because of my programming knowledge, capabilities and eagerness to learn and expand my skills, I have been called a programming reference guide!</p>
 
-        <p>I began programming in January 2013 by teaching myself Python, and in September I enrolled at <a target="_blank" href="http://southeasterntech.edu/">Southeastern Technical College</a> to obtain my Associates of Applied Science in Website development, graduating with honors in December 2015.</p>
+        <p>I began programming in January 2013 by teaching myself Python, and in September I enrolled at <a target="_blank" href="http://southeasterntech.edu/">Southeastern Technical College</a> to obtain my Associates of Applied Science in Website Development, graduating with honors in December 2015.</p>
 
         <blockquote>To me, programming is not about trying to write something that will be picked up by some big corporation and bought for lots of money. Instead, it is about doing my job in the most excellent way possible and making the product work so well that users never have to think about how or why it works, it just works.</blockquote>
       </div>
