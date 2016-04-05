@@ -134,11 +134,6 @@
             <span class="text">Email</span>
           </a>
 
-          <a target="_blank" href="https://www.linkedin.com/in/cely717">
-            <div class="icon fi-social-linkedin"></div>
-            <span class="text">LinkedIn</span>
-          </a>
-
           <a target="_blank" href="https://twitter.com/_le717">
             <div class="icon fi-social-twitter"></div>
             <span class="text">Twitter</span>
