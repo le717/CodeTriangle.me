@@ -82,7 +82,7 @@
             </div>
           </aside>
 
-          <aside class="project-box" id="emscog">
+          <aside class="project-box" id="notepad">
             <h3 class="title">Notepad.exe</h3>
             <p class="date">October 2015</p>
             <div class="desc">
