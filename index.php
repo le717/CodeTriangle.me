@@ -66,6 +66,14 @@
         <div class="btn-cta center"><a href="portfolio/caleb-ely-resume.pdf">Resum&eacute;!</a></div>
 
         <div id="projects-container">
+          <aside class="project-box" id="cardoozycom">
+            <h3 class="title">CarDoozy.com</h3>
+            <p class="date">May 2016</p>
+            <div class="desc">
+              <p>Designed, implemented, and launched <a target="_blank" href="https://cardoozy.com/">CarDoozy.com</a>, the promotional site for an online store geared towards saving automotive dealer associations time and money on dealer product, promotional, and printed needs. Pre-existing logo and stock photo used to create design scheme.</p>
+            </div>
+          </aside>
+
           <aside class="project-box" id="codetri">
             <h3 class="title">CodeTriangle.me</h3>
             <p class="date">February 2016</p>
