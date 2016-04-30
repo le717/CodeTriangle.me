@@ -2,11 +2,13 @@
 #projects-container {
   margin-top: 2rem;
   @include center-horizon;
-  width: 96%;
+
+  display: flex;
+  flex-wrap: wrap;
 
   .project-box {
-    margin: 1em auto;
-    width: 100%;
+    margin: 1em;
+    flex: 1 1 46%;
     max-height: 4.6em;
     overflow: hidden;
 
