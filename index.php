@@ -34,7 +34,7 @@
         </li>
 
         <li>
-          <a href="https://Triangle717.WordPress.com">
+          <a href="https://medium.com/@cely717">
             <span class="text">Blog</span><span class="icon fi-book-bookmark"></span>
           </a>
         </li>
