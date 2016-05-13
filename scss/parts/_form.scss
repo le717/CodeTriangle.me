@@ -3,7 +3,7 @@ form {
   %styled-input {
     padding: 0.5em;
 
-    max-width: 18em;
+    max-width: 35em;
     flex: 1;
 
     border: none;
@@ -126,7 +126,11 @@ form {
   }
 
   // Style the plain text inputs
-  textarea { @extend %styled-input; }
+  textarea {
+    @extend %styled-input;
+    min-height: 14em;
+  }
+
   $formTypes: number, email, password, text;
   @each $type in $formTypes {
     input[type="#{$type}"] {
