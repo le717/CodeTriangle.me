@@ -11,7 +11,7 @@
   <![endif]-->
   <title>Caleb Ely | Web Developer</title>
 
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,400i,700|Roboto+Slab:400">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Raleway:400,400i,700,700i|Roboto+Slab:400">
   <link rel="stylesheet" href="fonts/foundation-icons/foundation-icons.css">
   <link rel="stylesheet" href="build/css/codetriangle.min.css">
 </head>
