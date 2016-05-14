@@ -168,19 +168,19 @@
         <form id="form-email" name="form-email">
           <div class="group">
             <label class="input-before" for="input-name">Name <span class="required">*</span></label>
-            <input type="text" name="name" id="input-name" tabindex="1">
+            <input type="text" name="name" id="input-name" tabindex="1" placeholder="Jason Parse" required>
             <span class="input-after error name">Everybody has a name, even you.</span>
           </div>
 
           <div class="group">
             <label class="input-before" for="input-email">Email <span class="required">*</span></label>
-            <input type="email" name="email" id="input-email" tabindex="2" required>
+            <input type="email" name="email" id="input-email" tabindex="2" placeholder="my@email.address" required>
             <span class="input-after error email">That does not look like an email address.</span>
           </div>
 
           <div class="group">
             <label class="input-before textarea" for="input-message">Message <span class="required">*</span></label>
-            <textarea name="message" id="input-message" tabindex="3" required></textarea>
+            <textarea name="message" id="input-message" tabindex="3" placeholder="Hello, Caleb! I would like you to make me a website!" required></textarea>
             <div class="input-after error message">You have to enter a message to send an email.</div>
           </div>
 
