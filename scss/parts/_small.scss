@@ -9,7 +9,7 @@
     position: absolute;
     width: 100%;
     top: initial;
-    right: initial;
+    right: 0;
     transition: background-color 0.2s ease;
 
     &.scroll {
@@ -18,10 +18,11 @@
       background-color: rgba(61, 61, 61, 0.8);
     }
 
-    ul {
-      position: relative;
-      flex-wrap: nowrap;
-      justify-content: unset;
+    ul { position: relative; }
+
+    li {
+      float: left;
+      width: 25%;
     }
 
     a:hover,

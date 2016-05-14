@@ -10,7 +10,7 @@
     font-size: 2.5em;
     color: $color-text-primary;
 
-    text-align: right;
+    @extend .text-right;
   }
 
   #title {
