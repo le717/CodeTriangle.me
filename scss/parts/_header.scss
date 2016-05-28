@@ -1,23 +1,26 @@
 // ------- Site header
 .header {
   width: 100%;
+  height: 15em;
+
   position: relative;
 
-  #name {
-    position: relative;
-    bottom: 0.3em;
-    right: 3.05em;
-    font-size: 2.5em;
-    color: $color-text-primary;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    @extend .text-right;
+  #name {
+    margin: 0;
+    font-size: 4em;
+    color: $color-text-primary;
+    text-shadow: 2px 0 3px #938787;
   }
 
   #title {
-    position: absolute;
-    top: 1.2em;
-    right: 8.4rem;
-    font-size: 1.3em;
+    margin: -1.25em 0 0 -0.8em;
+
+    font-size: 1.8em;
     color: $color-text-primary;
   }
 
@@ -25,9 +28,11 @@
     width: 110px;
     height: 110px;
 
-    position: fixed;
-    top: 0.2em;
-    right: 0.5em;
+    position: absolute;
+    margin-top: 0.7em;
+    margin-left: 8em;
+
+    align-self: center;
 
     // Logo color
     g { fill: $color-text-primary; }
