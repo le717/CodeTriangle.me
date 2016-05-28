@@ -20,7 +20,7 @@
   <span id="home"></span>
   <main>
     <header class="header">
-      <?= file_get_contents('img/logo.svg'); ?>
+      <?php /* file_get_contents('img/logo.svg'); */ ?>
       <h1 id="name">Caleb Ely</h1>
       <h2 id="title">Web Developer</h2>
     </header>
@@ -55,7 +55,7 @@
 
     <section class="page-section alt" id="summary">
       <div class="text-content">
-        <p class="text-center">A Web developer with over <span class="emphasis"><?= $ctme_yrsCoding; ?> years</span> experience in <span class="emphasis">Python, JavaScript, PHP</span>, and HTML/CSS/SCSS.</p>
+        <p class="text-center">A Web developer with over <span class="emphasis"><?= $ctme_yrsCoding; ?> years</span> combined experience in <span class="emphasis">Python, JavaScript, PHP</span>, and HTML/CSS/SCSS.</p>
       </div>
     </section>
 
