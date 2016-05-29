@@ -29,25 +29,29 @@
       <ul>
         <li>
           <a data-scroll title="Home" href="#home">
-            <span class="text">Home</span><span class="icon fi-home"></span>
+            <span class="icon fi-home"></span>
+            <span class="text">Home</span>
           </a>
         </li>
 
         <li>
           <a href="https://medium.com/@cely717">
-            <span class="text">Blog</span><span class="icon fi-book-bookmark"></span>
+            <span class="icon fi-book-bookmark"></span>
+            <span class="text">Blog</span>
           </a>
         </li>
 
        <li>
           <a data-scroll href="#about">
-            <span class="text">About</span><span class="icon fi-torso"></span>
+            <span class="icon fi-torso"></span>
+            <span class="text">About</span>
           </a>
         </li>
 
         <li>
           <a data-scroll href="#contact">
-            <span class="text">Contact</span><span class="icon fi-mail"></span>
+            <span class="icon fi-mail"></span>
+            <span class="text">Contact</span>
           </a>
         </li>
       </ul>
@@ -61,7 +65,7 @@
 
     <section class="page-section" id="portfolio">
       <div class="text-content">
-        <h2>My Portfolio</h2>
+        <h2>Portfolio.</h2>
         <p class="dropcap">If you are looking for someone who can write extraordinary code, I am the developer for you! Check out my portfolio and <a href="https://github.com/le717">published code</a> to see all I have done, download my resum&eacute;, and <a href="#contact">contact me</a> today!</p>
         <div class="btn-cta center"><a href="portfolio/caleb-ely-resume.pdf">Resum&eacute;!</a></div>
 
