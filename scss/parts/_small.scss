@@ -7,6 +7,8 @@
   }
 
   .navi {
+    padding-bottom: 1em;
+
     position: absolute;
     width: 100%;
     top: initial;
@@ -26,20 +28,18 @@
       width: 25%;
     }
 
-    a:hover,
-    a:focus,
-    a:active {
-      .text { display: none; }
+    .text {
+      visibility: visible;
+      font-size: 1.2em;
     }
   }
 
-  .page-section > .text-content:first-of-type { margin-top: 2.5em; }
+  .page-section > .text-content:first-of-type { margin-top: 5rem; }
   .page-section.social .text { visibility: visible; }
 }
 
 @media (max-device-width: 435px) {
   .page-section > .text-content { width: 85%; }
-  .page-section:first-of-type > .text-content { margin-top: 3.5rem; }
 }
 
 @media (max-device-width: 372px) {
