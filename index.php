@@ -20,7 +20,7 @@
   <span id="home"></span>
   <main>
     <header class="header">
-      <?php /* file_get_contents('img/logo.svg'); */ ?>
+      <div><?= file_get_contents('img/logo.svg'); ?></div>
       <h1 id="name">Caleb Ely</h1>
       <h2 id="title">Web Developer</h2>
     </header>
