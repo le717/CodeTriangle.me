@@ -3,17 +3,9 @@
 (function() {
   "use strict";
   var qNav  = document.querySelector(".navi"),
-      qLogo = document.querySelector(".header #logo g");
-
+      qLogo = document.querySelector(".header #logo");
 
   function toggleScrollActions() {
-    // Logo color
-    if (window.pageYOffset >= 52) {
-      qLogo.classList.add("light");
-    } else {
-      qLogo.classList.remove("light");
-    }
-
     // Mobile nav bar
     if (window.pageYOffset >= 125) {
       qNav.classList.add("scroll");
@@ -24,4 +16,9 @@
 
   toggleScrollActions();
   window.addEventListener("scroll", toggleScrollActions);
+
+  // Logo animation
+  qLogo.addEventListener("click", function() {
+    this.classList.toggle("animate");
+  });
 }());

@@ -7,16 +7,13 @@
   .header #logo {
     transition: transform 0.8s linear;
 
-    &:hover { transform: rotateX(180deg) rotateY(360deg); }
+    &.animate { transform: rotateX(180deg) rotateY(360deg); }
 
     // SVG logo color change
-    g {
-      transition: filter 0.2s linear, fill 0.2s linear;
-
-      &.light {
-        fill: $color-accent-first;
-        filter: drop-shadow(10px 10px 6px $color-primary);
+    g { transition: filter 0.2s linear, fill 0.2s linear; }
+    &:hover g {
+      fill: $color-accent-first;
+      filter: drop-shadow(10px 9px 0 $color-primary);
       }
-    }
   }
 }
