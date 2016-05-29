@@ -7,7 +7,7 @@
 
   function toggleScrollActions() {
     // Mobile nav bar
-    if (window.pageYOffset >= 125) {
+    if (window.pageYOffset >= 222) {
       qNav.classList.add("scroll");
     } else {
       qNav.classList.remove("scroll");
