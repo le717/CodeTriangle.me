@@ -1,12 +1,14 @@
 <?php
   /**
    * @private
-   * Check if the text is empty.
-
+   * Check if the text is empty. Correctly handles non-breaking spaces.
+   *
    * @param  string $text.
    * @return boolean true if not empty, false otherwise.
    */
   function _isNotEmpty($text) {
+    $text = trim($text, chr(0xC2).chr(0xA0));
+    $text = str_replace('&nbsp;', '', $text);
     return (bool) !preg_match('/^\s*$/', $text);
   }
 
