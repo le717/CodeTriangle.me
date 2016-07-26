@@ -9,7 +9,7 @@
   .project-box {
     margin: 1em;
     flex: 1 1 46%;
-    max-height: 4.6em;
+    max-height: 5em;
     overflow: hidden;
 
     border: 1px solid $color-accent-first;
@@ -31,7 +31,7 @@
     & > .title {
       margin-top: 0.5em;
       margin-bottom: 0;
-      font-size: 1.07em;
+      font-size: 1.04em;
     }
 
     & > .date {
@@ -42,7 +42,7 @@
     & > .desc {
       margin-right: 1em;
       margin-left: 1em;
-      @extend .text-justify;
+      @extend .text-left;
 
       a { color: $color-text-primary; }
     }
