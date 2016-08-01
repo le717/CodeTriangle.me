@@ -79,10 +79,10 @@
           </aside>
 
           <aside class="project-box" id="codetri">
-            <h3 class="title">CodeTriangle.me</h3>
+            <h3 class="title">CodeTriangle</h3>
             <p class="date">February 2016</p>
             <div class="desc">
-              <p>My personal site, which you are currently browsing. Registered in July 2015, the current design iteration (and yes, it is <a target="_blank" href="https://github.com/le717/CodeTriangle.me">open-source</a>) was published on February 29, 2016.</p>
+              <p>My personal site, which you are currently browsing. Registered in July 2015, the current design iteration (and yes, it is <a target="_blank" href="https://github.com/le717/CodeTriangle">open-source</a>) was published on February 29, 2016.</p>
             </div>
           </aside>
 
@@ -90,7 +90,7 @@
             <h3 class="title">East Main Street Church of God</h3>
             <p class="date">December 2015</p>
             <div class="desc">
-              <p>I designed, developed, and documented a WordPress-powered website from the ground-up for the <a href="http://codetriangle.me/portfolio/emscog/">East Main Street Church of God</a> as my college capstone. Mock-ups were created in Photoshop, design implemented using SCSS, and custom functionality developed with JavaScript and PHP.</p>
+              <p>I designed, developed, and documented a WordPress-powered website from the ground-up for the <a href="http://demo.codetri.net/emscog/">East Main Street Church of God</a> as my college capstone. Mock-ups were created in Photoshop, design implemented using SCSS, and custom functionality developed with JavaScript and PHP.</p>
             </div>
           </aside>
 
