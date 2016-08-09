@@ -1,6 +1,6 @@
 {
   "name": "CodeTriangle.me",
-  "version": "0.9.3",
+  "version": "0.9.6",
   "description": "My personal website.",
   "license": "MIT",
   "author": "Caleb Ely",
@@ -22,9 +22,9 @@
     "microajax": "github:le717/microajax#v2"
   },
   "devDependencies": {
-    "autoprefixer": "^6.3.2",
-    "node-sass": "^3.4.2",
-    "postcss": "^5.0.17",
-    "uglify-js": "^2.6.2"
+    "autoprefixer": "^6.4.0",
+    "node-sass": "^3.8.0",
+    "postcss": "^5.1.2",
+    "uglify-js": "^2.7.0"
   }
 }
