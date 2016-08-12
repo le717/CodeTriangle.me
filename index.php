@@ -98,7 +98,7 @@
             <h3 class="title">Notepad.exe</h3>
             <p class="date">October 2015</p>
             <div class="desc">
-              <p>As an afternoon project, I recreated <a target="_blank" href="https://en.wikipedia.org/wiki/Notepad_%28software%29">Windows Notepad</a> in JavaScript, implementing file creation, saving, and printing, as well as the notorous (disabled by default!) word-wrapping. Both a <a href="http://notepad.codetriangle.me">live demo</a> and <a target="_blank" href="https://github.com/le717/notepad.exe">source code</a> are available.</p>
+              <p>As an afternoon project, I recreated <a target="_blank" href="https://en.wikipedia.org/wiki/Notepad_%28software%29">Windows Notepad</a> in JavaScript, implementing file creation, saving, and printing, as well as the notorous (disabled by default!) word-wrapping. Both a <a href="http://notepad.codetri.net">live demo</a> and <a target="_blank" href="https://github.com/le717/notepad.exe">source code</a> are available.</p>
             </div>
           </aside>
 
