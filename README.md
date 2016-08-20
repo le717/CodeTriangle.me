@@ -1,4 +1,4 @@
-# [CodeTriangle.me](http://CodeTriangle.me) #
+# [CodeTriangle](http://CodeTri.net) #
 > My personal website.
 
 ## License ##
