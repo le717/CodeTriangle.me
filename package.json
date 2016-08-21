@@ -1,14 +1,14 @@
 {
-  "name": "CodeTriangle.me",
+  "name": "CodeTriangle",
   "version": "0.9.6",
   "description": "My personal website.",
   "license": "MIT",
   "author": "Caleb Ely",
-  "homepage": "http://CodeTriangle.me",
+  "homepage": "http://codetri.net",
   "main": "index.php",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/le717/CodeTriangle.me.git"
+    "url": "git+https://github.com/le717/CodeTriangle.git"
   },
   "scripts": {
     "copy:js": "node scripts/copy-js.js",
