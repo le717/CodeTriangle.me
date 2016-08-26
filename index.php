@@ -71,6 +71,14 @@
         <div class="btn-cta center"><a href="portfolio/caleb-ely-resume.pdf">Resum&eacute;!</a></div>
 
         <div id="projects-container">
+         <aside class="project-box" id="cardoozycom">
+            <h3 class="title">CarDoozy Store</h3>
+            <p class="date">April - July 2016</p>
+            <div class="desc">
+              <p>Developed, managed, and maintained the <a target="_blank" href="http://www.cardoozy.com/">CarDoozy Store</a>, an e-commerce site targeted towards car dealers to provide state-required printed forms and commonly used dealer products. Work included upgrading codebase from PHP 5.3 to PHP 5.6, implementing new features, fixing, removing, or rewriting broken, incomplete, or poorly designed features, and composing a road map of future developments.</p>
+            </div>
+          </aside>
+
           <aside class="project-box" id="cardoozycom">
             <h3 class="title">CarDoozy.com</h3>
             <p class="date">May 2016</p>
