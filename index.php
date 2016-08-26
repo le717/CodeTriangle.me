@@ -1,4 +1,5 @@
-<?php require '_includes/dates.php'; ?><!DOCTYPE html>
+<?php require '_includes/dates.php'; ?>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -125,9 +126,9 @@
     <section class="page-section alt" id="about">
       <div class="text-content">
         <h2>Who am I?</h2>
-        <p class="dropcap">I am <span class="emphasis">Caleb Ely</span>, a <?= $ctme_myAge; ?> year old programmer, Web developer, occasional video game player, and all-around technology fan harkening from Georgia, USA. I have a small blog where I predominantly write about Website design, development, and general technology. A strong supporter of open source software, I believe some of the best software currently available is open source. That is why I both actively use and contribute to open source projects as well as open sourcing the majority of my own work.</p>
+        <p class="dropcap">I am <span class="emphasis">Caleb Ely</span>, a <?= $ctme_myAge; ?> year old programmer, Web developer, occasional video game player, and all-around technology fan harkening from Georgia, USA. I am very detail-oriented and technical-minded, constantly seeking out good, beneficial, and efficient coding techniques. Because of my programming knowledge, capabilities and eagerness to learn and expand my skills, I have been called a programming reference guide!</p>
 
-        <p>I am very detail-oriented and technical-minded, constantly seeking out good and efficient coding techniques. Because of my programming knowledge, capabilities and eagerness to learn and expand my skills, I have been called a programming reference guide!</p>
+        <p>I have a small blog where I predominantly write about Website design, development, and general technology. A strong supporter of open source software, I believe some of the best software currently available is open source. That is why I both actively use and contribute to open source projects as well as open source the majority of my own work.</p>
 
         <p>I began programming in January 2013 by teaching myself Python, and in September I enrolled at <a target="_blank" href="http://southeasterntech.edu/">Southeastern Technical College</a> to obtain my Associates of Applied Science in Website Development, graduating with honors in December 2015.</p>
 
