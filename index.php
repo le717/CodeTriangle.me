@@ -160,11 +160,6 @@
             <span class="text">Twitter</span>
           </a>
 
-          <a target="_blank" href="https://www.facebook.com/cely717">
-            <div class="icon fi-social-facebook"></div>
-            <span class="text">Facebook</span>
-          </a>
-
           <a target="_blank" href="https://github.com/le717">
             <div class="icon fi-social-github"></div>
             <span class="text">GitHub</span>
