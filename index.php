@@ -67,7 +67,7 @@
     <section class="page-section" id="portfolio">
       <div class="text-content">
         <h2>Portfolio.</h2>
-        <p class="dropcap">If you are looking for someone who can write extraordinary code, I am the developer for you! Check out my portfolio and <a href="https://github.com/le717">published code</a> to see all I have done, download my resum&eacute;, and <a href="#contact">contact me</a> today!</p>
+        <p class="dropcap">If you are looking for someone who can write extraordinary code, I am the developer for you! Check out my portfolio and <a href="https://github.com/le717">published work</a> to see all I have done, download my resum&eacute;, and <a href="#contact">contact me</a> today!</p>
         <div class="btn-cta center"><a href="portfolio/caleb-ely-resume.pdf">Resum&eacute;!</a></div>
 
         <div id="projects-container">
@@ -146,14 +146,9 @@
     <section class="page-section social" id="contact">
       <div class="text-content">
         <h2>Yes, I have social media.</h2>
-        <p class="dropcap">If you have any questions, comments, or simply want to say hi, you can drop me a line through any of the following sites! I need many more words here to add at least two or three more sentences. Having only one sentence for this large section is not at all good. Without them it feels rather... lacking and empty.</p>
+        <p class="dropcap">If you have any questions, comments, or simply want to say hi, you can drop me a line! I need many more words here to add at least two or three more sentences. Having only one sentence for this large section is not at all good. Without them it feels rather... lacking and empty.</p>
 
         <div class="social-icons">
-          <a data-scroll href="#email">
-            <div class="icon fi-mail"></div>
-            <span class="text">Email</span>
-          </a>
-
           <a target="_blank" href="https://twitter.com/_le717">
             <div class="icon fi-social-twitter"></div>
             <span class="text">Twitter</span>
