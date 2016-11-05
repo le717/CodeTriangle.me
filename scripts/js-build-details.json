@@ -4,6 +4,6 @@
   },
   "exceptions": {
     "lib": ["prism.js"],
-    "main": null
+    "main": ["send-email.js"]
   }
 }

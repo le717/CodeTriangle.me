@@ -130,7 +130,6 @@
       </div>
     </section>
 
-
     <section class="page-section alt" id="about">
       <div class="text-content">
         <h2>Why, hello there!</h2>
@@ -165,44 +164,6 @@
             <span class="text">GitHub</span>
           </a>
         </div>
-      </div>
-    </section>
-
-    <section class="page-section email alt" id="email">
-      <div class="text-content">
-        <h2>This is an email form.</h2>
-        <p class="dropcap">You can use it to email me with questions, concerns, bug reports (although you really should use GitHub for that), job opportunites, or other stuff. However, please tweet me if you would like to have a casual conversation. Email conversations are not in my time schedule.</p>
-
-        <form id="form-email" name="form-email">
-          <div class="group">
-            <label class="input-before" for="input-name">Name <span class="required">*</span></label>
-            <input type="text" name="name" id="input-name" tabindex="1" placeholder="Jason Parse" required>
-            <span class="input-after error name">Everybody has a name, even you.</span>
-          </div>
-
-          <div class="group">
-            <label class="input-before" for="input-email">Email <span class="required">*</span></label>
-            <input type="email" name="email" id="input-email" tabindex="2" placeholder="my@email.address" required>
-            <span class="input-after error email">That does not look like an email address.</span>
-          </div>
-
-          <div class="group">
-            <label class="input-before textarea" for="input-message">Message <span class="required">*</span></label>
-            <textarea name="message" id="input-message" tabindex="3" placeholder="Hello, Caleb! I would like you to make me a website!" required></textarea>
-            <div class="input-after error message">You have to enter a message to send an email.</div>
-          </div>
-
-          <span id="not-person">
-            <input id="bot" name="bot" type="checkbox">
-            <label for="bot"></label>
-            <span>Do not check this box if you are a human.</span>
-          </span>
-
-          <div class="group block btns">
-            <input class="btn submit" type="submit" name="submit" value="Send" tabindex="4">
-            <div class="input-after success submit">Message successfully sent!</div>
-          </div>
-        </form>
       </div>
     </section>
 
