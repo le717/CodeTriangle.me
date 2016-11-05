@@ -71,7 +71,7 @@
         <div class="btn-cta center"><a href="portfolio/caleb-ely-resume.pdf">Resum&eacute;!</a></div>
 
         <div id="projects-container">
-         <aside class="project-box" id="cardoozycom">
+         <aside class="project-box" id="cardoozy">
             <h3 class="title">CarDoozy Store</h3>
             <p class="date">April - July 2016</p>
             <div class="desc">
@@ -194,7 +194,6 @@
 
           <span id="not-person">
             <input id="bot" name="bot" type="checkbox">
-            <!--<input id="bot" type="radio">-->
             <label for="bot"></label>
             <span>Do not check this box if you are a human.</span>
           </span>
