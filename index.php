@@ -35,13 +35,6 @@
           </a>
         </li>
 
-        <li>
-          <a href="https://medium.com/@cely717">
-            <span class="icon fi-book-bookmark"></span>
-            <span class="text">Blog</span>
-          </a>
-        </li>
-
        <li>
           <a data-scroll href="#about">
             <span class="icon fi-torso"></span>
@@ -157,6 +150,11 @@
           <a target="_blank" href="https://github.com/le717">
             <div class="icon fi-social-github"></div>
             <span class="text">GitHub</span>
+          </a>
+
+          <a target="_blank" href="https://medium.com/@cely717">
+            <div class="icon fi-book-bookmark"></div>
+            <span class="text">Blog</span>
           </a>
         </div>
       </div>
