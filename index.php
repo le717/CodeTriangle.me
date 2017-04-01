@@ -142,7 +142,7 @@
         <p class="dropcap">If you have any questions, comments, or simply want to say hi, you can drop me a line! I need many more words here to add at least two or three more sentences. Having only one sentence for this large section is not at all good. Without them it feels rather... lacking and empty.</p>
 
         <div class="social-icons">
-          <a target="_blank" href="https://twitter.com/_le717">
+          <a target="_blank" href="https://twitter.com/cely717">
             <div class="icon fi-social-twitter"></div>
             <span class="text">Twitter</span>
           </a>
