@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#3D3D3D">
   <link rel="apple-touch-icon-precomposed" sizes="192x192" href="apple-touch-icon-precomposed.png">
   <link rel="shortcut icon" sizes="192x192" href="favicon.png">
   <?= file_get_contents('_includes/social-tags.html'); ?>
