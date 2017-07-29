@@ -63,6 +63,14 @@
         <div class="btn-cta center"><a href="dl/caleb-ely-resume.pdf">Resum&eacute;!</a></div>
 
         <div id="projects-container">
+          <aside class="project-box" id="valuebook">
+            <h3 class="title">ValueBook Publishing</h3>
+            <p class="date">July - August 2017</p>
+            <div class="desc">
+              <p>Lead a one week, two man redesign of the <a target="_blank" rel="noopener noreferrer" href="http://valuebookpublishing.com">ValueBook Publishing</a> website, creating a brand new look,feel, and tone, as well as updating the underlying PHP and MySQL database to match modern standards.</p>
+            </div>
+          </aside>
+
          <aside class="project-box" id="cardoozy">
             <h3 class="title">CarDoozy Store</h3>
             <p class="date">April - July 2016</p>
