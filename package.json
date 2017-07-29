@@ -22,9 +22,10 @@
     "microajax": "github:le717/microajax#v2"
   },
   "devDependencies": {
-    "autoprefixer": "^6.4.0",
-    "node-sass": "^3.8.0",
-    "postcss": "^5.1.2",
-    "uglify-js": "^2.7.0"
+    "autoprefixer": "^7.1.2",
+    "mkdirp": "^0.5.1",
+    "node-sass": "^4.5.3",
+    "postcss": "^6.0.8",
+    "uglify-js": "^2.8.29"
   }
 }
