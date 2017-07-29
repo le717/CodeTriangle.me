@@ -19,10 +19,13 @@
    }
 
   qProjectContainer.addEventListener("click", function(e) {
-    // Find the project box
-    var qProjectBox = findParent(e.target, "project-box");
+    // Do not react on links
+    if (e.target.nodeName.toLowerCase() === "a") {
+      return false;
+    }
 
-    // Hide/show the clicked box
+    var qProjectBox = findParent(e.target, "project-box");
+    // Pind and either hide/show the project box
     if (qProjectBox.classList.contains("project-box")) {
       qProjectBox.classList.toggle("visible");
     }
