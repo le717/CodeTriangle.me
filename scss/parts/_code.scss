@@ -12,29 +12,3 @@ pre {
   background-color: $color-accent-first;
   color: $color-text-primary;
 }
-
-// ------- Prism overwrites
-
-// Matching background color
-code[class*="language-"],
-pre[class*="language-"] { background: $color-accent-first; }
-
-// Reduce whitespace above code
-pre > code[class*="language-"] {
-  position: relative;
-  top: -0.5em;
-
-}
-
-// Move the language label to the left corner
-div.prism-show-language > div.prism-show-language-label[data-language] {
-  right: auto;
-  left: 0;
-  border-radius: 0 0 5px 0;
-}
-
-// Reposition the first instance of the language label
-// It is too high otherwise
-div.prism-show-language:nth-child(2) > div.prism-show-language-label[data-language] {
-  top: 0.56em;
-}

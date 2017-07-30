@@ -3,7 +3,7 @@
     "outputFile": "codetriangle.min.js"
   },
   "exceptions": {
-    "lib": ["prism.js"],
+    "lib": null,
     "main": null
   }
 }
