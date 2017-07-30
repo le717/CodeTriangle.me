@@ -6,9 +6,5 @@
   {
     "from": "node_modules/smooth-scroll/dist/js/smooth-scroll.js",
     "to": "js/lib/smooth-scroll.js"
-  },
-  {
-    "from": "node_modules/microajax/microajax.js",
-    "to": "js/lib/microajax.js"
   }
 ]

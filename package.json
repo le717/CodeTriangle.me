@@ -17,9 +17,8 @@
     "postinstall": "npm run copy:js"
   },
   "dependencies": {
-    "smooth-scroll": "github:cferdinandi/smooth-scroll",
     "classlist.js": "github:eligrey/classList.js",
-    "microajax": "github:le717/microajax#v2"
+    "smooth-scroll": "github:cferdinandi/smooth-scroll"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
