@@ -67,7 +67,7 @@
             <h3 class="title">ValueBook Publishing</h3>
             <p class="date">July - August 2017</p>
             <div class="desc">
-              <p>Lead a one week, two man redesign of the <a target="_blank" rel="noopener noreferrer" href="http://valuebookpublishing.com">ValueBook Publishing</a> website, creating a brand new look,feel, and tone, as well as updating the underlying PHP and MySQL database to match modern standards.</p>
+              <p>Lead a one week, three person redesign of the <a target="_blank" rel="noopener noreferrer" href="http://valuebookpublishing.com">ValueBook Publishing</a> website, creating a brand new look,feel, and tone, as well as updating the underlying PHP and MySQL database to conform to modern standards.</p>
             </div>
           </aside>
 
@@ -104,7 +104,7 @@
           </aside>
 
           <aside class="project-box" id="notepad">
-            <h3 class="title">Notepad.exe</h3>
+            <h3 class="title">Notepad</h3>
             <p class="date">October 2015</p>
             <div class="desc">
               <p>As an afternoon project, I recreated <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Notepad_%28software%29">Windows Notepad</a> in JavaScript, implementing file creation, saving, and printing, as well as the notorous (disabled by default!) word-wrapping. Both a <a href="http://notepad.codetri.net">live demo</a> and <a target="_blank" rel="noopener noreferrer" href="https://github.com/le717/notepad.exe">source code</a> are available.</p>
@@ -115,7 +115,7 @@
             <h3 class="title">Model Worlds</h3>
             <p class="date">July 2015</p>
             <div class="desc">
-              <p>I recreated the Steam Workshop-inspired <a target="_blank" rel="noopener noreferrer" href="http://web.archive.org/web/20160121032229/http://www.modelworlds.net/">Model Worlds</a> fan site for the <a target="_blank" rel="noopener noreferrer" href="http://store.steampowered.com/app/332310">LEGO&reg; Worlds</a> video game by <a target="_blank" rel="noopener noreferrer" href="http://www.ttgames.com/">TT Games</a>. In one week I recreated a modified, responsive design of the site and wrote a basic, but usable, user account system in PHP. Due to unforseen circumstances and side-project status, the site was never completed and eventually <a target="_blank" rel="noopener noreferrer" href="https://github.com/le717/Model-Worlds">open-sourced</a>.</p>
+              <p>I recreated the Steam Workshop-inspired <a target="_blank" rel="noopener noreferrer" href="http://web.archive.org/web/20160121032229/http://www.modelworlds.net/">Model Worlds</a> fan site for the <a target="_blank" rel="noopener noreferrer" href="http://store.steampowered.com/app/332310">LEGO&reg; Worlds</a> video game by <a target="_blank" rel="noopener noreferrer" href="http://www.ttgames.com/">TT Games</a>. In one week I recreated a modified, responsive design of the site and wrote a basic, but usable, user account system in PHP. Due to side-project status, the site was never completed and eventually <a target="_blank" rel="noopener noreferrer" href="https://github.com/le717/Model-Worlds">open-sourced</a>.</p>
             </div>
           </aside>
 
