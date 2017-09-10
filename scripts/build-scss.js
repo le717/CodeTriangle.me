@@ -12,7 +12,7 @@ const fs           = require("fs"),
 
       // I/O details
       output     = require("./scss-build-details"),
-      outputPath = path.join(rootDir, "build", "css", output.details.outputFile);
+      outputFile = path.join(rootDir, "build", "css", output.details.outputFile);
 
 
 /**
@@ -30,7 +30,7 @@ function prefixCSS(css) {
  * @param {string} css - CSS to be written.
  */
 function saveCSS(css) {
-    fs.writeFile(outputPath, css, (err) => {
+  fs.writeFile(outputFile, css, (err) => {
     if (err) {
       console.error("Unable to build CSS.");
       throw new Error(err);
