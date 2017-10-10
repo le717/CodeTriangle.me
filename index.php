@@ -99,7 +99,7 @@
             <h3 class="title">East Main Street Church of God</h3>
             <p class="date">December 2015</p>
             <div class="desc">
-              <p>I designed, developed, and documented a WordPress-powered website from the ground-up for the <a href="http://demo.codetri.net/emscog/">East Main Street Church of God</a> as my college capstone. Mock-ups were created in Photoshop, design implemented using SCSS, and custom functionality developed with JavaScript and PHP.</p>
+              <p>I designed, developed, and documented a WordPress-powered website from the ground-up for the <a href="https://demo.codetri.net/emscog/">East Main Street Church of God</a> as my college capstone. Mock-ups were created in Photoshop, design implemented using SCSS, and custom functionality developed with JavaScript and PHP.</p>
             </div>
           </aside>
 

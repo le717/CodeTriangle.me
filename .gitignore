@@ -33,3 +33,4 @@ lib/
 Testing/
 Backup/
 demo/
+*.conf
