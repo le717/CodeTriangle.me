@@ -1,0 +1,129 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+html { min-width: 320px; }
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: #1e1e1e;
+
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 1.7;
+  color: #d4d4d4;
+}
+
+a {
+  color: #dcdcaa;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  background-color: rgba(86, 156, 214, 0.25);
+}
+
+sup { font-size: 0.8rem; }
+
+ul { list-style-type: none; }
+
+li,
+dd {
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+li::before,
+dd::before {
+  /* content: "\25B2"; */
+  content: "\25B6";
+  margin-left: -1.3rem;
+  margin-right: 0.4rem;
+}
+
+blockquote {
+  padding-top: 0.7em;
+  padding-right: 1.1em;
+  padding-bottom: 0.5em;
+  padding-left: 1.55em;
+  margin-right: auto;
+  margin-left: auto;
+  width: 86%;
+  background-color: #373737;
+  font-size: 0.95em;
+  color: #f1f1f1;
+  border-left: 5px solid #d4d4d4;
+}
+
+blockquote * { display: inline;  }
+
+blockquote::before {
+  position: absolute;
+  font-style: italic;
+  font-size: 3.4em;
+  color: #979797;
+  content: open-quote;
+  margin-top: -0.5em;
+  margin-left: -0.45em
+}
+
+.header {
+  width: 100%;
+  height: 10em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: #e6e6e6;
+  background-color: #373737;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header #name {
+  margin: 0;
+  font-size: 3.7em;
+}
+
+.header #title {
+  margin: -1.25em 0 0 -0.8em;
+  font-size: 1.5em;
+}
+
+.header #logo {
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  margin-top: 0.7em;
+  margin-left: 8em;
+}
+
+.content {
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.content h2 { margin-bottom: -0.6em; }
+.content section { flex-basis: 50%; }
+
+@media (max-width: 800px) {
+  .header #name { font-size: 3em; }
+  .header #title { font-size: 1.2em; }
+
+  .header #logo {
+    width: 95px;
+    height: 95px;
+    position: static;
+    margin-top: -0.5em;
+    margin-bottom: -2em;
+  }
+
+  .content section { flex-basis: auto; }
+}
