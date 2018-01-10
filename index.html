@@ -144,8 +144,8 @@
   </main>
 
   <script>
-    function yearDifference(date){"use strict";let curDate=new Date();let now={day:curDate.getUTCDate(),year:curDate.getUTCFullYear(),month:curDate.getUTCMonth()+1};let diff=now.year%date.year;if(now.month<date.month||(now.month===date.month&&now.day<date.day)){diff-=1}return diff}
-    document.querySelector(".year-exp").innerHTML=yearDifference({year:2013,month:1,day:26});
+    const y=d=>{"use strict";let cd=new Date();let now={day:cd.getUTCDate(),year:cd.getUTCFullYear(),month:cd.getUTCMonth()+1};let diff=now.year%d.year;if(now.month<d.month||(now.month===d.month&&now.day<d.day)){diff-=1}return diff}
+    document.querySelector(".year-exp").innerHTML=y({year:2013,month:1,day:26});
   </script>
 </body>
 </html>
