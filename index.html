@@ -6,7 +6,7 @@
   <title>Caleb Ely | Web Developer</title>
   <meta name="theme-color" content="#373737">
   <link rel="apple-touch-icon-precomposed" sizes="192x192" href="apple-touch-icon-precomposed.png">
-  <link rel="shortcut icon" sizes="192x192" href="favicon.png">
+  <link rel="shortcut icon" href="favicon.png">
   <meta name="title" content="Caleb Ely | Web Developer">
   <meta name="description" content="Discover who Caleb is, what he does, and how to hire him for your next Web development project!">
   <meta name="keywords" content="caleb ely,website developer,webdev,programming,programmer,python,javascript,php">
@@ -26,7 +26,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="no-js">
   <main>
     <header class="header">
       <div><img id="logo" alt="Caleb Ely's logo" src="img/logo.svg"></div>
@@ -62,7 +62,8 @@
       <section class="brief">
         <h2>Brief</h2>
         <ul>
-          <li>Over <span class="year-exp">5</span> years experience</li>
+          <li><span id="exp">Over <span class="year-exp">5</span> years experience</span><noscript>Extensive experience since 2013</noscript>
+          </li>
           <li>Python, JavaScript, PHP, MySQL</li>
           <li>HTML, CSS, SCSS</li>
           <li>Active open source contributor</li>
@@ -144,8 +145,7 @@
   </main>
 
   <script>
-    const y=d=>{"use strict";let cd=new Date();let now={day:cd.getUTCDate(),year:cd.getUTCFullYear(),month:cd.getUTCMonth()+1};let diff=now.year%d.year;if(now.month<d.month||(now.month===d.month&&now.day<d.day)){diff-=1}return diff}
-    document.querySelector(".year-exp").innerHTML=y({year:2013,month:1,day:26});
+    document.body.removeAttribute("class");const y=d=>{"use strict";let cd=new Date();let now={day:cd.getUTCDate(),year:cd.getUTCFullYear(),month:cd.getUTCMonth()+1};let diff=now.year%d.year;if(now.month<d.month||(now.month===d.month&&now.day<d.day)){diff-=1}return diff};document.querySelector(".year-exp").innerHTML=y({year:2013,month:1,day:26});
   </script>
 </body>
 </html>
