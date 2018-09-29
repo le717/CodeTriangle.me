@@ -1,3 +1,11 @@
+:root {
+  --primary-bg-color: #1e1e1e;
+  --secondary-bg-color: #373737;
+  --primary-text-color: #d4d4d4;
+  --primary-font-stack: "Raleway", sans-serif;
+  --secondary-font-stack: "Zilla Slab", var(--primary-font-stack);
+}
+
 *, *::before, *::after { box-sizing: border-box; }
 
 html { min-width: 320px; }
@@ -6,12 +14,17 @@ body {
   margin: 0;
   padding: 0;
 
-  background-color: #1e1e1e;
+  background-color: var(--primary-bg-color);
 
-  font-family: "Raleway";
+  font-family: var(--primary-font-stack);
   font-size: 18px;
   line-height: 1.7;
-  color: #d4d4d4;
+  color: var(--primary-text-color);
+}
+
+h1, h2 {
+  font-family: var(--secondary-font-stack);
+  font-weight: 700;
 }
 
 a {
@@ -49,13 +62,13 @@ blockquote {
   margin-right: auto;
   margin-left: auto;
   width: 86%;
-  background-color: #373737;
+  background-color: var(--secondary-bg-color);
   font-size: 0.95em;
   color: #f1f1f1;
-  border-left: 5px solid #d4d4d4;
+  border-left: 5px solid var(--primary-text-color);
 }
 
-blockquote * { display: inline;  }
+blockquote * { display: inline; }
 
 blockquote::before {
   position: absolute;
@@ -77,7 +90,7 @@ blockquote::before {
   align-items: center;
 
   color: #e6e6e6;
-  background-color: #373737;
+  background-color: var(--secondary-bg-color);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
