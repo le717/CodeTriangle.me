@@ -110,7 +110,7 @@ blockquote::before {
 }
 
 .content h2 { margin-bottom: -0.6em; }
-.content section { flex-basis: 50%; }
+.content section { flex-basis: 49%; }
 .no-js #exp { display: none; }
 
 @media (max-width: 800px) {
