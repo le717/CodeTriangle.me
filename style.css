@@ -24,10 +24,11 @@ body {
 
 h1, h2 {
   font-family: var(--secondary-font-stack);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 a {
+  padding: 0.13em;
   color: #dcdcaa;
   text-decoration: none;
 }
