@@ -80,31 +80,33 @@ blockquote::before {
   margin-left: -0.45em
 }
 
-.header {
+header {
   width: 100%;
   height: 10em;
-  position: relative;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
   color: #e6e6e6;
   background-color: var(--secondary-bg-color);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.header #name {
+header #name {
   margin: 0;
   font-size: 3.7em;
 }
 
-.header #title {
+header #title {
   margin: -1.25em 0 0 -0.8em;
   font-size: 1.5em;
 }
 
-.header #logo {
+header #logo {
   width: 110px;
   height: 110px;
   position: absolute;
@@ -118,7 +120,7 @@ blockquote::before {
   margin-left: auto;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
@@ -127,10 +129,10 @@ blockquote::before {
 .no-js #exp { display: none; }
 
 @media (max-width: 800px) {
-  .header #name { font-size: 3em; }
-  .header #title { font-size: 1.2em; }
+  header #name { font-size: 3em; }
+  header #title { font-size: 1.2em; }
 
-  .header #logo {
+  header #logo {
     width: 95px;
     height: 95px;
     position: static;
