@@ -4,4 +4,4 @@
 ## License ##
 [MIT](LICENSE)
 
-2016-2018 Caleb Ely
+2016-2019 Caleb Ely
