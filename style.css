@@ -138,6 +138,12 @@ header #logo {
 .content section { flex-basis: 49%; }
 .no-js #exp { display: none; }
 
+
+footer {
+  padding-bottom: 0.5em;
+  text-align: center;
+}
+
 @media (max-width: 800px) {
   header #name { font-size: 3em; }
   header #title { font-size: 1.2em; }
