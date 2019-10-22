@@ -156,5 +156,8 @@ footer {
     margin-bottom: -2em;
   }
 
-  .content section { flex-basis: auto; }
+  .content section {
+    flex-basis: -webkit-auto;
+    flex-basis: auto;
+  }
 }
