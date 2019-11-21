@@ -4,8 +4,17 @@
   --primary-text-color: #d4d4d4;
   --primary-link-color: #dcdcaa;
   --primary-header-color: #e6e6e6;
+  --header-wordmark-color: #ffffff;
   --primary-font-stack: "Raleway", sans-serif;
   --secondary-font-stack: "Zilla Slab", var(--primary-font-stack);
+}
+
+body.light {
+  --primary-bg-color: #eceaea;
+  --secondary-bg-color: #e2dbdb;
+  --primary-text-color: #1e1e1e;
+  --primary-link-color: rgb(190, 5, 21);
+  --primary-header-color: #04343a;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -86,7 +95,7 @@ blockquote::before {
   color: #979797;
   content: open-quote;
   margin-top: -0.5em;
-  margin-left: -0.45em
+  margin-left: -0.45em1
 }
 
 header {
@@ -101,18 +110,19 @@ header {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 
-  color: var(--primary-header-color);
   background-color: var(--secondary-bg-color);
 }
 
 header #name {
   margin: 0;
   font-size: 3.7em;
+  color: var(--header-wordmark-color);
 }
 
 header #title {
   margin: -1.25em 0 0 -0.8em;
   font-size: 1.5em;
+  color: var(--header-wordmark-color);
 }
 
 header #logo {
