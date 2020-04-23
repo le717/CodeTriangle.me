@@ -1,0 +1,4 @@
+footer {
+  @apply py-2;
+  @apply text-center;
+}

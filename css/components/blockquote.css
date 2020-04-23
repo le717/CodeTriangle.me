@@ -1,0 +1,27 @@
+
+blockquote {
+  @apply pt-3;
+  @apply pr-5;
+  @apply pb-2;
+  @apply pl-6;
+  @apply mx-auto;
+  width: 86%;
+
+  @apply border-l-4;
+  @apply border-solid;
+
+  @apply text-base;
+}
+
+blockquote * {
+  @apply inline;
+}
+
+blockquote::before {
+  @apply -mt-2;
+  @apply -ml-2;
+  @apply absolute;
+  @apply italic;
+  @apply text-5xl;
+  content: open-quote;
+}

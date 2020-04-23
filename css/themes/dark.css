@@ -1,3 +1,29 @@
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+
 h1, h2 {
   @apply text-gray-100;
+}
+
+a {
+  color: rgb(15, 15, 92);
+  color: var(--primary-link-color);
+}
+
+a:hover,
+a:focus,
+a:active {
+  background-color: rgba(86, 156, 214, 0.25);
+}
+
+blockquote {
+  color: #f1f1f1;
+  border-left-color: var(--primary-text-color);
+  background-color: var(--secondary-bg-color);
+}
+
+blockquote::before {
+  color: #979797;
 }

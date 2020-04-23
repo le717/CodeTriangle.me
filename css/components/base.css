@@ -1,0 +1,15 @@
+html { min-width: 320px; }
+
+body {
+  @apply font-primary;
+  @apply text-lg;
+  @apply leading-relaxed;
+}
+
+a {
+  @apply no-underline;
+}
+
+sup {
+  @apply text-sm;
+}

@@ -1,0 +1,14 @@
+ul {
+  @apply list-none;
+}
+
+li {
+  @apply my-1;
+}
+li::before {
+  /* Exlplict font-family required to stop triangle emoji from rendering */
+  font-family: "Raleway";
+  content: "\25B6";
+  @apply -ml-5;
+  @apply mr-2;
+}
