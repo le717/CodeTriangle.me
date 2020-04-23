@@ -154,6 +154,19 @@ footer {
   text-align: center;
 }
 
+#ko-fi {
+  position: fixed;
+  bottom: 1rem;
+  right: 2rem;
+  transition: transform 0.1s ease-in-out;
+}
+#ko-fi:hover,
+#ko-fi:focus,
+#ko-fi:active {
+  background-color: transparent;
+  transform: scale(1.15);
+}
+
 @media (max-width: 800px) {
   header #name { font-size: 3em; }
   header #title { font-size: 1.2em; }
@@ -169,5 +182,10 @@ footer {
   .content section {
     flex-basis: -webkit-auto;
     flex-basis: auto;
+  }
+
+  #ko-fi {
+    right: 0;
+    bottom: 0;
   }
 }
