@@ -13,3 +13,7 @@ a {
 sup {
   @apply text-sm;
 }
+
+.no-js #exp {
+  @apply hidden;
+}

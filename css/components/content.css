@@ -1,18 +1,16 @@
 .content {
   width: 85%;
-  margin-right: auto;
-  margin-left: auto;
+  @apply mx-auto;
 
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  @apply flex;
+  @apply flex-wrap;
+  @apply justify-around;
 }
 
 .content section { flex-basis: 49%; }
 
 @media (max-width: 800px) {
   .content section {
-    flex-basis: -webkit-auto;
     flex-basis: auto;
   }
 }

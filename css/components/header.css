@@ -45,7 +45,7 @@ header #logo {
   header #logo {
     width: 95px;
     height: 95px;
-    position: static;
+    @apply static;
     margin-top: -0.5em;
     margin-bottom: -2em;
   }
