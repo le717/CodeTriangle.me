@@ -5,8 +5,11 @@ module.exports = {
     extend: {
       colors: {},
       fontFamily: {
-        custom: [
-          ...defaultTheme.fontFamily.sans
+        primary: [
+          "Raleway", ...defaultTheme.fontFamily.sans
+        ],
+        secondary: [
+          "Zilla Slab", "Raleway", ...defaultTheme.fontFamily.sans
         ]
       },
     },

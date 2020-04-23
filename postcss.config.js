@@ -4,7 +4,7 @@ const css_import = require("postcss-import");
 const autoprefixer = require("autoprefixer");
 const css_custom_props = require("postcss-custom-properties");
 const purgecss = require("@fullhuman/postcss-purgecss")({
-  content: ["**/*.html"],
+  content: ["./**/*.html"],
   css: ["css/**/*.css"],
   defaultExtractor: content => content.match(/[A-Za-z0-9-_:/]+/g) || []
 });
