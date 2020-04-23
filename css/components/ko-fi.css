@@ -1,0 +1,20 @@
+/* Ko-fi donate button */
+#ko-fi {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  transition: transform 0.1s ease-in-out;
+}
+#ko-fi:hover,
+#ko-fi:focus,
+#ko-fi:active {
+  background-color: transparent;
+  transform: scale(1.15);
+}
+
+@screen md {
+  #ko-fi {
+    bottom: 1.5rem;
+    right: 2rem;
+  }
+}
