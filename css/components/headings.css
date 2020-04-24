@@ -1,5 +1,7 @@
 h1, h2, h3 {
-  @apply m-2;
+  @apply mt-4;
+  @apply mb-0;
+  @apply ml-0;
   @apply font-secondary;
   @apply font-semibold;
 }
