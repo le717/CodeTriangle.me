@@ -9,6 +9,10 @@ a {
   @apply py-1;
   @apply my-2;
   @apply no-underline;
+
+  @apply transition-colors;
+  @apply duration-150;
+  @apply ease-in-out;
 }
 
 sup {
