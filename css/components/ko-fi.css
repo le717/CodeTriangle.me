@@ -1,15 +1,18 @@
 /* Ko-fi donate button */
 #ko-fi {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  transition: transform 0.1s ease-in-out;
+  @apply fixed;
+  right: 0.25rem;
+  bottom: 0.75rem;
+  @apply transition-transform;
+  @apply ease-in-out;
+  @apply duration-100;
 }
 #ko-fi:hover,
 #ko-fi:focus,
 #ko-fi:active {
-  background-color: transparent;
-  transform: scale(1.15);
+  @apply bg-transparent;
+  @apply transform;
+  @apply scale-110;
 }
 
 @screen md {
