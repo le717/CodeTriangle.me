@@ -1,0 +1,39 @@
+body.light {
+  @apply bg-gray-200;
+  @apply text-black;
+}
+
+.light a {
+  @apply text-gray-900;
+  @apply bg-white;
+  @apply shadow;
+}
+
+.light a:hover,
+.light a:focus,
+.light a:active {
+  @apply bg-blue-400;
+  @apply text-white;
+}
+
+.light h1,
+.light h2 {
+  @apply text-gray-800;
+}
+
+.light header {
+  @apply bg-blue-400;
+  @apply shadow-lg;
+}
+
+header #name {
+  @apply text-white;
+}
+
+header #title {
+  @apply text-white;
+}
+
+.light hr {
+  @apply hidden;
+}

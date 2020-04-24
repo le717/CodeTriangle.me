@@ -1,5 +1,3 @@
-html { min-width: 320px; }
-
 body {
   @apply font-primary;
   @apply text-lg;
@@ -7,6 +5,9 @@ body {
 }
 
 a {
+  @apply px-2;
+  @apply py-1;
+  @apply my-2;
   @apply no-underline;
 }
 

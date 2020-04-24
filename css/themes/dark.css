@@ -1,29 +1,47 @@
-body {
-  background-color: var(--primary-bg-color);
-  color: var(--primary-text-color);
+body.dark {
+  background-color: #36393F;
+  @apply text-white;
 }
 
-h1, h2 {
-  @apply text-gray-100;
+.dark h1,
+.dark h2 {
+  @apply text-green-200;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
-a {
-  color: rgb(15, 15, 92);
-  color: var(--primary-link-color);
+.dark a {
+  background-color: #28292e;
 }
 
-a:hover,
-a:focus,
-a:active {
-  background-color: rgba(86, 156, 214, 0.25);
+.dark a:hover,
+.dark a:focus,
+.dark a:active {
+  @apply bg-green-700;
 }
 
-blockquote {
+.dark blockquote {
   color: #f1f1f1;
-  border-left-color: var(--primary-text-color);
-  background-color: var(--secondary-bg-color);
+  border-left-color: #d4d4d4;
+  background-color: #373737;
 }
 
-blockquote::before {
+.dark blockquote::before {
   color: #979797;
+}
+
+.dark header #name {
+  @apply text-white;
+}
+
+.dark header #title {
+  @apply text-white;
+}
+
+.dark hr {
+  @apply w-full;
+  @apply h-2;
+  @apply block;
+  @apply mx-auto;
+  @apply bg-green-300;
+  @apply border-none;
 }

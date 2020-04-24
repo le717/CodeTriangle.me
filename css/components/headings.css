@@ -3,7 +3,7 @@ h1, h2, h3 {
   @apply mb-0;
   @apply ml-0;
   @apply font-secondary;
-  @apply font-semibold;
+  @apply font-bold;
 }
 
 h1 {

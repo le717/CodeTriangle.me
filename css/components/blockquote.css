@@ -5,7 +5,7 @@ blockquote {
   @apply pb-2;
   @apply pl-6;
   @apply mx-auto;
-  width: 86%;
+  @apply w-10/12;
 
   @apply border-l-4;
   @apply border-solid;
