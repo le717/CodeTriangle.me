@@ -6,10 +6,10 @@ module.exports = {
       colors: {},
       fontFamily: {
         primary: [
-          "Raleway", ...defaultTheme.fontFamily.sans
+          "Karla", ...defaultTheme.fontFamily.sans
         ],
         secondary: [
-          "Zilla Slab", "Raleway", ...defaultTheme.fontFamily.sans
+          "Raleway", "Karla", ...defaultTheme.fontFamily.sans
         ]
       },
     },

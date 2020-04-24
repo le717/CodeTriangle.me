@@ -2,7 +2,6 @@
 @import "tailwindcss/components";
 
 /* HTML/page element styling */
-@import "colors.css";
 @import "components/base.css";
 @import "components/blockquote.css";
 @import "components/headings.css";
@@ -16,6 +15,6 @@
 
 /* Site themes */
 @import "themes/dark.css";
-/* @import "themes/light.css"; */
+@import "themes/light.css";
 
 @import "tailwindcss/utilities";
