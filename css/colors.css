@@ -1,0 +1,18 @@
+:root {
+  --primary-bg-color: #1e1e1e;
+  --secondary-bg-color: #373737;
+  --primary-text-color: #d4d4d4;
+  --primary-link-color: #dcdcaa;
+  --primary-header-color: #e6e6e6;
+  --header-wordmark-color: #ffffff;
+  --primary-font-stack: "Raleway", sans-serif;
+  --secondary-font-stack: "Zilla Slab", var(--primary-font-stack);
+}
+
+body.light {
+  --primary-bg-color: #eceaea;
+  --secondary-bg-color: #e2dbdb;
+  --primary-text-color: #1e1e1e;
+  --primary-link-color: rgb(190, 5, 21);
+  --primary-header-color: #04343a;
+}
