@@ -11,6 +11,10 @@ blockquote {
   @apply border-solid;
 
   @apply text-base;
+
+  color: #f1f1f1;
+  border-left-color: #d4d4d4;
+  background-color: #373737;
 }
 
 blockquote * {
@@ -24,4 +28,6 @@ blockquote::before {
   @apply italic;
   @apply text-5xl;
   content: open-quote;
+
+  color: #979797;
 }
