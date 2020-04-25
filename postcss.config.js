@@ -2,7 +2,6 @@ const process = require("process");
 const tailwindcss = require("tailwindcss");
 const css_import = require("postcss-import");
 const autoprefixer = require("autoprefixer");
-const css_custom_props = require("postcss-custom-properties");
 const purgecss = require("@fullhuman/postcss-purgecss")({
   content: ["./**/*.html"],
   css: ["css/**/*.css"],
@@ -16,7 +15,6 @@ module.exports = {
   plugins: [
     css_import,
     tailwindcss,
-    css_custom_props,
     ...(process.env.NODE_ENV === "production" ? [purgecss] : []),
     autoprefixer,
     ...(process.env.NODE_ENV === "production" ? [cssnano] : []),
