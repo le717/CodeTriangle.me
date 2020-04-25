@@ -12,7 +12,6 @@
 
 .content section {
   @apply w-full;
-  @apply break-words;
 }
 
 @screen md {
