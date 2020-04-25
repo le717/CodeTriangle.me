@@ -1,0 +1,50 @@
+header {
+  @apply w-full;
+  @apply h-40;
+
+  @apply flex;
+  @apply flex-col;
+  @apply justify-center;
+  @apply items-center;
+}
+
+header #name {
+  @apply m-0;
+  @apply mb-1;
+  @apply text-5xl;
+}
+
+header #title {
+  @apply -mt-6;
+  @apply -ml-3;
+  @apply mr-0;
+  @apply mb-0;
+  @apply text-xl;
+}
+
+header #logo {
+  @apply static;
+  width: 95px;
+  height: 95px;
+  @apply -mt-2;
+  @apply ml-32;
+  @apply -mb-6;
+}
+
+@screen md {
+  header #name {
+    @apply text-6xl;
+  }
+
+  header #title {
+    @apply text-2xl;
+    @apply -mt-8;
+  }
+
+  header #logo {
+    @apply absolute;
+    width: 110px;
+    height: 110px;
+    margin-top: 0.7em;
+  }
+}

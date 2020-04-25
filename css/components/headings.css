@@ -1,0 +1,19 @@
+h1, h2, h3 {
+  @apply mt-4;
+  @apply mb-0;
+  @apply ml-0;
+  @apply font-secondary;
+  @apply font-bold;
+}
+
+h1 {
+  @apply text-4xl;
+}
+
+h2 {
+  @apply text-3xl;
+}
+
+h3 {
+  @apply text-2xl;
+}

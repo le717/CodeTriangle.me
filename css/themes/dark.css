@@ -1,0 +1,33 @@
+body.dark {
+  background-color: #36393F;
+  @apply text-white;
+}
+
+.dark main h1,
+.dark main h2 {
+  @apply text-green-200;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.dark a {
+  background-color: #28292e;
+}
+
+.dark a:hover,
+.dark a:focus,
+.dark a:active {
+  @apply bg-green-700;
+}
+
+.dark header {
+  @apply text-white;
+}
+
+.dark hr {
+  @apply w-full;
+  @apply h-2;
+  @apply block;
+  @apply mx-auto;
+  @apply bg-green-300;
+  @apply border-none;
+}

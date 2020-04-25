@@ -1,0 +1,28 @@
+/* Ko-fi donate button */
+#ko-fi {
+  right: 0.25rem;
+  bottom: 0.75rem;
+
+  @apply fixed;
+  @apply bg-transparent;
+  @apply shadow-none;
+
+  @apply transition-transform;
+  @apply ease-in-out;
+  @apply duration-100;
+}
+#ko-fi:hover,
+#ko-fi:focus,
+#ko-fi:active {
+  @apply bg-transparent;
+
+  @apply transform;
+  @apply scale-110;
+}
+
+@screen md {
+  #ko-fi {
+    bottom: 1.5rem;
+    right: 2rem;
+  }
+}

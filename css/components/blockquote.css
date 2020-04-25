@@ -1,0 +1,33 @@
+
+blockquote {
+  @apply pt-3;
+  @apply pr-5;
+  @apply pb-2;
+  @apply pl-6;
+  @apply mx-auto;
+  @apply w-10/12;
+
+  @apply border-l-4;
+  @apply border-solid;
+
+  @apply text-base;
+
+  color: #f1f1f1;
+  border-left-color: #d4d4d4;
+  background-color: #373737;
+}
+
+blockquote * {
+  @apply inline;
+}
+
+blockquote::before {
+  @apply -mt-2;
+  @apply -ml-2;
+  @apply absolute;
+  @apply italic;
+  @apply text-5xl;
+  content: open-quote;
+
+  color: #979797;
+}

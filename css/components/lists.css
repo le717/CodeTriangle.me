@@ -1,0 +1,14 @@
+ul {
+  @apply list-none;
+  @apply mb-4;
+  @apply ml-10;
+}
+
+li {
+  @apply my-1;
+}
+li::before {
+  content: "\25B2";
+  @apply -ml-5;
+  @apply mr-2;
+}

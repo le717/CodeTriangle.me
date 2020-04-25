@@ -27,7 +27,7 @@ $RECYCLE.BIN/
 ## Project
 #############
 
-build/
+.vscode/
 node_modules/
 lib/
 Testing/

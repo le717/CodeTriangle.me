@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Caleb Ely | Web Developer</title>
-  <meta name="theme-color" content="#373737">
+  <meta name="theme-color" content="#36393F">
   <link rel="apple-touch-icon-precomposed" sizes="192x192" href="apple-touch-icon-precomposed.png">
   <link rel="shortcut icon" href="favicon.png">
 
@@ -24,24 +24,26 @@
   <meta name="twitter:description" content="Discover who Caleb is, what he does, and how to hire him for your next Web development project!">
   <meta name="twitter:image" content="https://codetri.net/img/social-media-card.png">
 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700:Zilla+Slab:600">
-  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400&family=Raleway:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="build/style.min.css">
 </head>
 
-<body class="no-js">
-  <main>
-    <header>
-      <div><img id="logo" alt="Caleb Ely's logo" src="img/logo.svg"></div>
-      <h1 id="name">Caleb Ely</h1>
-      <h2 id="title">Web Developer</h2>
-    </header>
+<body class="no-js dark">  <!-- dark light -->
+  <header>
+    <div><img id="logo" alt="Caleb Ely's logo" src="img/logo.svg"></div>
+    <h1 id="name">Caleb Ely</h1>
+    <h2 id="title">Web Developer</h2>
+  </header>
 
-    <div class="content">
-      <section class="contact" style="margin-right: auto;">
+  <hr>
+
+  <main class="content" id="main">
+    <div class="row">
+      <section class="contact">
         <h2>Contact</h2>
         <ul>
           <li>
-            <a href="https://codetri.net/dl/caleb-ely-resume-web.pdf"><strong>Resum&eacute;</strong></a>
+            <a href="https://codetri.net/dl/caleb-ely-resume-web.pdf"><strong>R&eacute;sum&eacute;</strong></a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/cely">Linkedin</a>
@@ -61,185 +63,202 @@
       <section class="brief">
         <h2>Brief</h2>
         <ul>
-          <li><span id="exp">Over <span class="year-exp">6</span> years experience</span><noscript>Extensive experience since 2013</noscript>
+          <li><span id="exp">Over <span class="year-exp">7</span> years experience</span>
+            <noscript>Extensive experience since 2013</noscript>
           </li>
           <li>Python, JavaScript, PHP</li>
           <li>HTML, CSS, TailwindCSS</li>
-          <li><a href="https://palletsprojects.com/p/flask/">Flask</a>, Docker, MySQL/MariaDB</li>
+          <li>Docker, <a href="https://palletsprojects.com/p/flask/">Flask</a>, MySQL/MariaDB</li>
           <li>Active open source contributor</li>
           <li>Detail-oriented and technical-minded</li>
           <li>Excellent communication and people skills</li>
         </ul>
       </section>
+    </div>
 
+    <div class="row">
       <section class="edu">
         <h2>Education</h2>
-        <dl>
-          <dt>
-            <a href="https://www.georgiasouthern.edu/"><strong>Georgia Southern University</strong></a>
-          </dt>
-          <dd>May 2020</dd>
-          <dd>Bachelor of Science in Information Technology</dd>
-        </dl>
+        <a href="https://www.georgiasouthern.edu/"><strong>Georgia Southern University</strong></a>
+        <ul>
+          <li>August 2020 (starting)</li>
+          <li>Master of Science in Information Technology</li>
+        </ul>
 
-        <dl>
-          <dt>
-            <a href="http://www.ega.edu/"><strong>East Georgia State College</strong></a>
-          </dt>
-          <dd>2018 Magna Cum Laude</dd>
-          <dd>Associate of Arts in Core Curriculum</dd>
-          <dd><a href="https://www.ptk.org/default.aspx">Phi Theta Kappa Honor Society</a></dd>
-          <dd>Honors award in theatre performance</dd>
-        </dl>
+        <strong>Georgia Southern University</strong>
+        <ul>
+          <li>May 2020</li>
+          <li>Bachelor of Science in Information Technology</li>
+        </ul>
 
-        <dl>
-          <dt>
-            <a href="http://southeasterntech.edu/"><strong>Southeastern Technical College</strong></a>
-          </dt>
-          <dd>2015 honors graduate</dd>
-          <dd>Associate of Applied Science in Website Design &amp; Development</dd>
-          <dd>Certificate in Website Development</dd>
-          <dd>3<sup>rd</sup> in SkillsUSA GA 2015 Computer Programming competition</dd>
-        </dl>
+        <a href="http://www.ega.edu/"><strong>East Georgia State College</strong></a>
+        <ul>
+          <li>2018 Magna Cum Laude</li>
+          <li>Associate of Arts in Core Curriculum</li>
+          <li><a href="https://www.ptk.org/default.aspx">Phi Theta Kappa Honor Society</a></li>
+          <li>Honors award in theatre performance</li>
+        </ul>
+
+        <a href="http://southeasterntech.edu/"><strong>Southeastern Technical College</strong></a>
+        <ul>
+          <li>2015 honors graduate</li>
+          <li>Associate of Applied Science in Website Design &amp; Development</li>
+          <li>Certificate in Website Development</li>
+          <li>3<sup>rd</sup> in SkillsUSA GA 2015 Computer Programming competition</li>
+        </ul>
       </section>
 
       <section class="employment">
         <h2>Employment</h2>
-        <dl>
-          <dt><strong>Georgia Southern University</strong></dt>
-          <dd>IT Services Solutions Enginnering Student Assistant</dd>
-          <dd>March 2018 &mdash; current</dd>
-        </dl>
+        <strong>Georgia Southern University</strong>
+        <ul>
+          <li>IT Services Solutions Enginnering Student Assistant</li>
+          <li>March 2018 &mdash; current</li>
+        </ul>
 
-        <dl>
-          <dt><strong>East Georgia State College</strong></dt>
-          <dd>ACE Student Tutor</dd>
-          <dd>September &mdash; December 2017</dd>
-        </dl>
+        <strong>East Georgia State College</strong>
+        <ul>
+          <li>ACE Student Tutor</li>
+          <li>September &mdash; December 2017</li>
+        </ul>
 
-        <dl>
-          <dt><a href="https://poweredbylewiscolor.com/"><strong>Lewis Color, Inc.</strong></a></dt>
-          <dd>Web Developer Intern</dd>
-          <dd>May &mdash; August 2017</dd>
-        </dl>
+        <a href="https://poweredbylewiscolor.com/"><strong>Lewis Color, Inc.</strong></a>
+        <ul>
+          <li>Web Developer Intern</li>
+          <li>May &mdash; August 2017</li>
+        </ul>
 
-        <dl>
-          <dt><strong>East Georgia State College</strong></dt>
-          <dd>IT Student Worker</dd>
-          <dd>August 2016 &mdash; May 2017</dd>
-        </dl>
+        <strong>East Georgia State College</strong>
+        <ul>
+          <li>IT Student Worker</li>
+          <li>August 2016 &mdash; May 2017</li>
+        </ul>
 
-        <dl>
-          <dt><strong>Lewis Color, Inc.</strong></dt>
-          <dd>Web Developer Intern</dd>
-          <dd>July &mdash; August 2016</dd>
-        </dl>
+        <strong>Lewis Color, Inc.</strong>
+        <ul>
+          <li>Web Developer Intern</li>
+          <li>July &mdash; August 2016</li>
+        </ul>
       </section>
+    </div>
 
+    <div class="row">
       <section class="portfolio">
         <h2>Portfolio</h2>
-        <dl>
-          <dt><strong>#vss365 today API</strong></dt>
-          <dd>November 2019 &mdash; current</dd>
-          <dd>A Flask-based REST API for #vss365 today. Uses a MariaDB database for data storage and integrates with the Mailgun Email API service to deliver daily email notifications. (<a href="https://github.com/le717/vss365-today-api">GitHub</a>)</dd>
-        </dl>
+        <strong>#vss365 today API</strong>
+        <ul>
+          <li>November 2019 &mdash; current</li>
+          <li>A Flask-based REST API for #vss365 today. Uses a MariaDB database for data storage and integrates with the Mailgun Email API service to deliver daily email notifications. <a href="https://github.com/le717/vss365-today-api">GitHub</a></li>
+        </ul>
 
-        <dl>
-          <dt><strong>Georgia Southern Faculty &amp; Staff Directory</strong></dt>
-          <dd>April &mdash; July 2019</dd>
-          <dd>Developed an updated replacement to the existing outdated, PHP-based, high-traffic faculty and staff search. Using Flask, simplifying the search criteria, utilizing AJAX requests, designing a brand new MariaDB database, offloading Oracle database dependency to a daily background process, and building a full-featured administration panel, the revamped Directory received high praise across the university. (<a href="https://directory.georgiasouthern.edu">Official website</a>)</dd>
-        </dl>
+        <strong>Georgia Southern Faculty &amp; Staff Directory</strong>
+        <ul>
+          <li>April &mdash; July 2019</li>
+          <li>Developed an updated replacement to the existing outdated, PHP-based, high-traffic faculty and staff search. Using Flask, simplifying the search criteria, utilizing AJAX requests, designing a brand new MariaDB database, offloading Oracle database dependency to a daily background process, and building a full-featured administration panel, the revamped Directory received high praise across the university. <a href="https://directory.georgiasouthern.edu">Official website</a></li>
+        </ul>
 
-        <dl>
-          <dt><strong>#vss365 today</strong></dt>
-          <dd>January 2019 &mdash; current</dd>
-          <dd>A Flask-based web app to provide a full archive of the Twitter-based #vss365 daily writing challenge prompts. Integrates with the Twitter API to find the latest writing prompt. Backed by a custom-developered REST API. (<a href="https://vss365today.com">Official website</a>, <a href="https://github.com/le717/vss365-today">GitHub</a>)</dd>
-        </dl>
+        <strong>#vss365 today</strong>
+        <ul>
+          <li>January 2019 &mdash; current</li>
+          <li>A Flask-based web app to provide a full archive of the Twitter-based #vss365 daily writing challenge prompts. Integrates with the Twitter API to find the latest writing prompt. Backed by a custom-developered REST API. <a href="https://vss365today.com">Official website</a> <a href="https://github.com/le717/vss365-today">GitHub</a></li>
+        </ul>
 
-        <dl>
-          <dt><strong>Are You on a Date?</strong></dt>
-          <dd>June 2018 &mdash; January 2019</dd>
-          <dd>A satirical website created as a learning project to better understand Flask. Integrates with the Yelp Fusion API and mobile device geolocation data to provide "results". (<a href="https://github.com/le717/areyouona-date">GitHub</a>)</dd>
-        </dl>
+        <strong>Are You on a Date?</strong>
+        <ul>
+          <li>June 2018 &mdash; January 2019</li>
+          <li>A satirical website created as a learning project to better understand Flask. Integrates with the Yelp Fusion API and mobile device geolocation data to provide "results". <a href="https://github.com/le717/areyouona-date">GitHub</a></li>
+        </ul>
 
-        <dl>
-          <dt><strong>Boats Animator</strong></dt>
-          <dd>October 2015 &mdash; January 2019</dd>
-          <dd>A free stop motion animation program for Windows, macOS, and Linux utilizing HTML5, JavaScript, and WebRTC. Contributions include developing core features, reviewing code, and prioritizing work. Served in programming consultation role since stepping down from active development in late 2018. (<a href="https://www.charlielee.uk/boats-animator/">Official website</a>)</dd>
-        </dl>
+        <strong>Boats Animator</strong>
+        <ul>
+          <li>October 2015 &mdash; January 2019</li>
+          <li>A free stop motion animation program for Windows, macOS, and Linux utilizing HTML5, JavaScript, and WebRTC. Contributions include developing core features, reviewing code, and prioritizing work. Served in programming consultation role since stepping down from active development in late 2018. <a href="https://www.charlielee.uk/boats-animator/">Official website</a></li>
+        </ul>
 
-        <dl>
-          <dt><strong>ValueBook Publishing</strong></dt>
-          <dd>August 2017</dd>
-          <dd>Lead a one week, three person redesign of ValueBook Publishing, creating a brand new look, feel, and tone. Additionally updated the underlying PHP and MySQL database to conform to modern standards. (<a href="http://valuebookpublishing.com/">Official website</a>)</dd>
-        </dl>
+        <strong>ValueBook Publishing</strong>
+        <ul>
+          <li>August 2017</li>
+          <li>Lead a one week, three person redesign of ValueBook Publishing, creating a brand new look, feel, and tone. Additionally updated the underlying PHP and MySQL database to conform to modern standards. <a href="http://valuebookpublishing.com/">Official website</a></li>
+        </ul>
 
-        <dl>
-          <dt><strong>CarDoozy Store</strong></dt>
-          <dd>April &mdash; July 2016</dd>
-          <dd>Developed, managed, and maintained the CarDoozy Store, a custom-developed e-commerce site targeted to car dealers to provide state-required printed forms and commonly used dealer products. Work included upgrading code from PHP 5.3 to 5.6, implementing, fixing, removing, or rewriting broken, incomplete, or poorly designed features, and composing a road map of future developments. (<a href="https://www.cardoozy.com/">Official website</a>)</dd>
-        </dl>
+        <strong>CarDoozy Store</strong>
+        <ul>
+          <li>April &mdash; July 2016</li>
+          <li>Developed, managed, and maintained the CarDoozy Store, a custom-developed e-commerce site targeted to car dealers to provide state-required printed forms and commonly used dealer products. Work included upgrading code from PHP 5.3 to 5.6, implementing, fixing, removing, or rewriting broken, incomplete, or poorly designed features, and composing a road map of future developments. <a href="https://www.cardoozy.com/">Official website</a></li>
+        </ul>
 
-        <dl>
-          <dt><strong>CarDoozy.com</strong></dt>
-          <dd>May 2016</dd>
-          <dd>Designed, implemented, and launched the fourh iteration of CarDoozy.com, a promotional site for an e-commerce store and printed product program for car dealer associations to save time and money on dealer products and printed needs. Design scheme built around pre-existing logo and promotional material. (<a href="https://www.cardoozy.com/">Official website</a>)</dd>
-        </dl>
+        <strong>CarDoozy.com</strong>
+        <ul>
+          <li>May 2016</li>
+          <li>Designed, implemented, and launched the fourh iteration of CarDoozy.com, a promotional site for an e-commerce store and printed product program for car dealer associations to save time and money on dealer products and printed needs. Design scheme built around pre-existing logo and promotional material. <a href="https://www.cardoozy.com/">Official website</a></li>
+        </ul>
       </section>
 
       <section class="publications">
         <h2>Publications</h2>
-        <dl>
-          <dt><strong>VSS365 Anthology: Volume One</strong></dt>
-          <dd><a href="https://makingfiction.com/2019/08/21/vss365-anthology-release-date/">Mark A. King</a></dd>
-          <dd>September 2019</dd>
-          <dd>"Sting" (poem)</dd>
-          <dd>"Braid" (poem)</dd>
-        </dl>
+        <strong>VSS365 Anthology: Volume One</strong>
+        <ul>
+          <li>
+            <a href="https://makingfiction.com/2019/08/21/vss365-anthology-release-date/">Mark A. King</a>
+          </li>
+          <li>September 2019</li>
+          <li>"Sting" (poem)</li>
+          <li>"Braid" (poem)</li>
+        </ul>
 
-        <dl>
-          <dt><strong>Georgia's Best Emerging Poets 2019: An Anthology</strong></dt>
-          <dd><a href="https://www.zpublishinghouse.com/">Z Publishing House</a></dd>
-          <dd>August 2019</dd>
-          <dd>"Listen" (poem)</dd>
-        </dl>
+        <strong>Georgia's Best Emerging Poets 2019: An Anthology</strong>
+        <ul>
+          <li>
+            <a href="https://www.zpublishinghouse.com/">Z Publishing House</a>
+          </li>
+          <li>August 2019</li>
+          <li>"Listen" (poem)</li>
+        </ul>
 
-        <dl>
-          <dt><strong>Wiregrass 2019</strong></dt>
-          <dd><a href="http://www.ega.edu/student_life/student_publications/wiregrass">East Georgia State College</a></dd>
-          <dd>May 2019</dd>
-          <dd>"<em>poeta vitae</em>" (poem)</dd>
-        </dl>
+        <strong>Wiregrass 2019</strong>
+        <ul>
+          <li>
+            <a href="http://www.ega.edu/student_life/student_publications/wiregrass">East Georgia State College</a>
+          </li>
+          <li>May 2019</li>
+          <li>"<em>poeta vitae</em>" (poem)</li>
+        </ul>
 
-        <dl>
-          <dt><strong>Calliope XXXVI</strong></dt>
-          <dd><a href="https://cah.georgiasouthern.edu/writling/opportunities-resources/calliope/">Georgia Southern University</a></dd>
-          <dd>May 2019</dd>
-          <dd>"Every moment is hurt" (poem)</dd>
-        </dl>
+        <strong>Calliope XXXVI</strong>
+        <ul>
+          <li>
+            <a href="https://cah.georgiasouthern.edu/writling/opportunities-resources/calliope/">Georgia Southern University</a>
+          </li>
+          <li>May 2019</li>
+          <li>"Every moment is hurt" (poem)</li>
+        </ul>
 
-        <dl>
-          <dt><strong>The George-Anne Miscellany Magazine</strong></dt>
-          <dd><a href="http://miscellany.reflectorgsu.com">Miscellany @ GS</a></dd>
-          <dd>March 2019 &mdash; "Angel" (poem)</dd>
-          <dd>April 2019 &mdash; "Though I Hurt, I Love" (poem)</dd>
-        </dl>
+        <strong>The George-Anne Miscellany Magazine</strong>
+        <ul>
+          <li>
+            <a href="http://miscellany.reflectorgsu.com">Miscellany @ GS</a>
+          </li>
+          <li>March 2019 &mdash; "Angel" (poem)</li>
+          <li>April 2019 &mdash; "Though I Hurt, I Love" (poem)</li>
+        </ul>
 
-        <dl>
-          <dt><strong>America's Emerging Poets 2018: Southeast Region</strong></dt>
-          <dd><a href="https://www.zpublishinghouse.com/">Z Publishing House</a></dd>
-          <dd>December 2018</dd>
-          <dd>"When We Were Young" (poem)</dd>
-        </dl>
+        <strong>America's Emerging Poets 2018: Southeast Region</strong>
+        <ul>
+          <li>
+            <a href="https://www.zpublishinghouse.com/">Z Publishing House</a>
+          </li>
+          <li>December 2018</li>
+          <li>"When We Were Young" (poem)</li>
+        </ul>
       </section>
     </div>
   </main>
 
   <footer>
     <a id="ko-fi" target="_blank" href="https://ko-fi.com/L4L21GK15">
-      <img height="40" alt="Buy Me a Coffee at ko-fi.com" src="https://cdn.ko-fi.com/cdn/kofi1.png?v=2">
+      <img width="160" height="40" alt="Buy Me a Coffee at ko-fi.com" src="https://cdn.ko-fi.com/cdn/kofi1.png?v=2">
     </a>
-    <span title="Obligatory emoji">😂</span>
+    <span title="Obligatory emoji">🤣</span>
   </footer>
 
   <script>

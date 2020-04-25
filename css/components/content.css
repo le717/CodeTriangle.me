@@ -1,0 +1,33 @@
+.content {
+  @apply w-11/12;
+  @apply mx-auto;
+}
+
+.content .row {
+  @apply w-full;
+  @apply flex;
+  @apply flex-col;
+
+}
+
+.content section {
+  @apply w-full;
+}
+
+@screen md {
+  .content {
+    @apply w-9/12;
+  }
+
+  .content .row {
+    @apply flex-row;
+  }
+
+  .content section {
+    @apply w-1/2;
+  }
+
+  .content section:nth-child(even) {
+    @apply ml-10;
+  }
+}

@@ -1,0 +1,34 @@
+body {
+  @apply font-primary;
+  @apply text-base;
+  @apply leading-relaxed;
+}
+
+a {
+  @apply px-2;
+  @apply py-1;
+  @apply my-2;
+  @apply no-underline;
+
+  @apply transition-colors;
+  @apply duration-150;
+  @apply ease-in-out;
+}
+
+a > img {
+  @apply border-none;
+}
+
+sup {
+  @apply text-sm;
+}
+
+.no-js #exp {
+  @apply hidden;
+}
+
+@screen md {
+  body {
+    @apply text-lg;
+  }
+}
