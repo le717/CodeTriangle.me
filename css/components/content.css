@@ -1,16 +1,34 @@
 .content {
-  width: 85%;
+  @apply w-11/12;
   @apply mx-auto;
-
-  @apply flex;
-  @apply flex-wrap;
-  @apply justify-around;
 }
 
-.content section { flex-basis: 49%; }
+.content .row {
+  @apply w-full;
+  @apply flex;
+  @apply flex-col;
 
-@media (max-width: 800px) {
+}
+
+.content section {
+  @apply w-full;
+  @apply break-words;
+}
+
+@screen md {
+  .content {
+    @apply w-9/12;
+  }
+
+  .content .row {
+    @apply flex-row;
+  }
+
   .content section {
-    flex-basis: auto;
+    @apply w-1/2;
+  }
+
+  .content section:nth-child(even) {
+    @apply ml-10;
   }
 }
