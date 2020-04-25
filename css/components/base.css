@@ -15,6 +15,10 @@ a {
   @apply ease-in-out;
 }
 
+a > img {
+  @apply border-none;
+}
+
 sup {
   @apply text-sm;
 }
