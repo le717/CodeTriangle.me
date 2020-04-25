@@ -1,6 +1,6 @@
 body {
   @apply font-primary;
-  @apply text-lg;
+  @apply text-base;
   @apply leading-relaxed;
 }
 
@@ -21,4 +21,10 @@ sup {
 
 .no-js #exp {
   @apply hidden;
+}
+
+@screen md {
+  body {
+    @apply text-lg;
+  }
 }
