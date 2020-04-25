@@ -1,0 +1,24 @@
+.page-404 main {
+  @apply text-center;
+}
+
+.page-404 main a {
+  @apply bg-transparent;
+  @apply shadow-none;
+}
+.page-404 main a:hover {
+  @apply bg-transparent;
+}
+
+.page-404 main img {
+  @apply block;
+  @apply mx-auto;
+
+  @apply transition-transform;
+  @apply ease-in-out;
+  @apply duration-100;
+}
+.page-404 main img:hover {
+  @apply transform;
+  @apply scale-110;
+}

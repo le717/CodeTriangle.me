@@ -13,6 +13,9 @@
 @import "components/content.css";
 @import "components/ko-fi.css";
 
+/* Individual pages */
+@import "pages/page-404.css";
+
 /* Site themes */
 @import "themes/dark.css";
 @import "themes/light.css";
