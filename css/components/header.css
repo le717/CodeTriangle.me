@@ -6,8 +6,6 @@ header {
   @apply flex-col;
   @apply justify-center;
   @apply items-center;
-
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 header #name {
@@ -31,7 +29,6 @@ header #logo {
   @apply -mt-2;
   @apply ml-32;
   @apply -mb-6;
-  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
 }
 
 @screen md {
