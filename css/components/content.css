@@ -28,6 +28,9 @@
   }
 
   .content section:nth-child(even) {
-    @apply ml-10;
+    @apply ml-5;
+  }
+  .content section:nth-child(odd) {
+    @apply mr-5;
   }
 }
