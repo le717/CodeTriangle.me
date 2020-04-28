@@ -17,6 +17,7 @@
 @import "pages/page-404.css";
 
 /* Site themes */
+@import "themes/detect.css";
 @import "themes/dark.css";
 @import "themes/light.css";
 

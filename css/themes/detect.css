@@ -1,0 +1,11 @@
+@media (prefers-color-scheme: dark) {
+  html {
+    content: "dark";
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  html {
+    content: "light";
+  }
+}
