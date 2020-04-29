@@ -6,7 +6,6 @@ body.dark {
 .dark main h1,
 .dark main h2 {
   @apply text-green-200;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .dark a {
