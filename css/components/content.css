@@ -14,6 +14,17 @@
   @apply w-full;
 }
 
+/* Display the JS cald'd yrs of exp if it's possible */
+body:not(.no-js) .exp-tag-nojs {
+  @apply hidden;
+}
+
+/* Otherwise, display a static line of text */
+.no-js .exp-tag-js {
+  @apply hidden;
+}
+
+
 @screen md {
   .content {
     @apply w-9/12;
