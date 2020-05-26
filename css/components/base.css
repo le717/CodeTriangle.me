@@ -2,8 +2,6 @@ body {
   @apply font-primary;
   @apply text-base;
   @apply leading-relaxed;
-  /* Default to site dark theme */
-  content: "dark";
 }
 
 a {
