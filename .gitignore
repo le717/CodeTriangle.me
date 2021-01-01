@@ -28,10 +28,11 @@ $RECYCLE.BIN/
 #############
 
 .vscode/
-node_modules/
-lib/
-Testing/
 Backup/
+build/
 demo/
 dl/
+lib/
+node_modules/
+Testing/
 *.conf

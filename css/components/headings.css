@@ -1,6 +1,6 @@
 h1, h2, h3 {
-  @apply mt-4;
-  @apply mb-0;
+  @apply mt-6;
+  @apply mb-3;
   @apply ml-0;
   @apply font-secondary;
   @apply font-bold;
