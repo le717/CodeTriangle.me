@@ -1,6 +1,8 @@
 .content {
   @apply w-11/12;
   @apply mx-auto;
+
+  @apply md:w-9/12;
 }
 
 .content .row {
@@ -8,10 +10,13 @@
   @apply flex;
   @apply flex-col;
 
+  @apply md:flex-row;
 }
 
 .content section {
   @apply w-full;
+
+  @apply md:w-1/2;
 }
 
 /* Display the JS cald'd yrs of exp if it's possible */
@@ -24,24 +29,9 @@ body:not(.no-js) .exp-tag-nojs {
   @apply hidden;
 }
 
-
-@screen md {
-  .content {
-    @apply w-9/12;
-  }
-
-  .content .row {
-    @apply flex-row;
-  }
-
-  .content section {
-    @apply w-1/2;
-  }
-
-  .content section:nth-child(even) {
-    @apply ml-5;
-  }
-  .content section:nth-child(odd) {
-    @apply mr-5;
-  }
+.content section:nth-child(even) {
+  @apply md:ml-5;
+}
+.content section:nth-child(odd) {
+  @apply md:mr-5;
 }

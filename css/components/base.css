@@ -2,6 +2,7 @@ body {
   @apply font-primary;
   @apply text-base;
   @apply leading-relaxed;
+  @apply md:text-lg;
 }
 
 a {
@@ -21,10 +22,4 @@ a > img {
 
 sup {
   @apply text-sm;
-}
-
-@screen md {
-  body {
-    @apply text-lg;
-  }
 }

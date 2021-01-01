@@ -1,7 +1,7 @@
 /* Ko-fi donate button */
 #ko-fi {
-  right: 0.25rem;
-  bottom: 0.75rem;
+  @apply right-1;
+  @apply bottom-3;
 
   @apply fixed;
   @apply bg-transparent;
@@ -10,6 +10,9 @@
   @apply transition-transform;
   @apply ease-in-out;
   @apply duration-100;
+
+  @apply md:bottom-6;
+  @apply md:right-8;
 }
 #ko-fi:hover,
 #ko-fi:focus,
@@ -18,11 +21,4 @@
 
   @apply transform;
   @apply scale-110;
-}
-
-@screen md {
-  #ko-fi {
-    bottom: 1.5rem;
-    right: 2rem;
-  }
 }

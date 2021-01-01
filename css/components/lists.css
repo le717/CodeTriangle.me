@@ -5,7 +5,7 @@ ul {
 }
 
 li {
-  @apply my-1;
+  @apply my-2;
 }
 li::before {
   content: "\25B2";
