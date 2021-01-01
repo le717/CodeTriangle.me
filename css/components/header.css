@@ -31,5 +31,5 @@ header #logo {
   @apply -mb-8;
 
   @apply md:absolute;
-  @apply md:mt-6;
+  @apply md:mt-5;
 }
