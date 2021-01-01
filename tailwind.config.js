@@ -1,9 +1,13 @@
 const defaultTheme = require("tailwindcss/defaultTheme")
 
 module.exports = {
+  purge: [
+    "*.html",
+    "css/**/*.css"
+  ],
+  darkMode: false,
   theme: {
     extend: {
-      colors: {},
       fontFamily: {
         primary: [
           "Karla", ...defaultTheme.fontFamily.sans
