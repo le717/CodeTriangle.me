@@ -15,8 +15,8 @@ header #name {
 }
 
 header #title {
-  @apply -mt-4;
-  @apply -ml-3;
+  @apply -mt-6;
+  @apply -ml-8;
   @apply mr-0;
   @apply mb-0;
   @apply text-xl;
