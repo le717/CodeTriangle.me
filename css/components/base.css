@@ -12,8 +12,8 @@ a {
   @apply no-underline;
 
   @apply transition-colors;
-  @apply duration-150;
-  @apply ease-in-out;
+  @apply duration-200;
+  @apply ease-in;
 }
 
 a > img {

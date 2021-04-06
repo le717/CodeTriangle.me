@@ -9,8 +9,11 @@ document.body.classList.remove("no-js");
 letThereBeLight();
 
 // Calculate my years of experience
-document.querySelector(".year-exp").textContent = calculateExperience({
-  year: 2013,
-  month: 1,
-  day: 26
-});
+const qYearExp = document.querySelector(".year-exp");
+if (qYearExp) {
+  qYearExp.textContent = calculateExperience({
+    year: 2013,
+    month: 1,
+    day: 26
+  });
+}

@@ -8,8 +8,8 @@
   @apply shadow-none;
 
   @apply transition-transform;
-  @apply ease-in-out;
-  @apply duration-100;
+  @apply ease-in;
+  @apply duration-200;
 
   @apply md:bottom-6;
   @apply md:right-8;

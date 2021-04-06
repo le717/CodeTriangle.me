@@ -12,6 +12,7 @@
 @import "components/footer.css";
 @import "components/content.css";
 @import "components/ko-fi.css";
+@import "components/divider-dots.css";
 
 /* Individual pages */
 @import "pages/page-404.css";

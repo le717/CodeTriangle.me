@@ -1,0 +1,14 @@
+/* Divider dots */
+div.divider {
+  @apply m-4;
+  @apply text-center;
+}
+
+div.divider > span.dot {
+  @apply inline-block;
+  @apply w-2;
+  @apply h-2;
+  @apply rounded-full;
+  @apply bg-gray-400;
+  @apply bg-opacity-50;
+}

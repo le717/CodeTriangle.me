@@ -1,21 +1,22 @@
 body.dark {
-  background-color: #36393F;
+  @apply bg-gray-900;
+  @apply bg-opacity-95;
   @apply text-white;
 }
 
 .dark main h1,
 .dark main h2 {
-  @apply text-green-200;
+  @apply text-gray-100;
 }
 
 .dark a {
-  background-color: #28292e;
+  @apply bg-gray-700;
 }
 
 .dark a:hover,
 .dark a:focus,
 .dark a:active {
-  @apply bg-green-700;
+  @apply bg-gray-500;
 }
 
 .dark header {
@@ -27,6 +28,6 @@ body.dark {
   @apply h-2;
   @apply block;
   @apply mx-auto;
-  @apply bg-green-300;
+  @apply bg-blue-400;
   @apply border-none;
 }
