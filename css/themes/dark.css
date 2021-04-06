@@ -31,3 +31,21 @@ body.dark {
   @apply bg-blue-400;
   @apply border-none;
 }
+
+.dark .lightbox-wrapper {
+  @apply bg-gray-900;
+}
+
+.dark .lightbox-wrapper .btn-previous,
+.dark .lightbox-wrapper .btn-next {
+  @apply bg-gray-700;
+}
+
+.dark .lightbox-wrapper .btn-previous:hover,
+.dark .lightbox-wrapper .btn-next:hover,
+.dark .lightbox-wrapper .btn-previous:active,
+.dark .lightbox-wrapper .btn-next:active,
+.dark .lightbox-wrapper .btn-previous:focus,
+.dark .lightbox-wrapper .btn-next:focus {
+  @apply bg-gray-500;
+}

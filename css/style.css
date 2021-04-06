@@ -6,6 +6,7 @@
 @import "components/blockquote.css";
 @import "components/headings.css";
 @import "components/lists.css";
+@import "components/photo-gallery.css";
 
 /* Site layout/design styling */
 @import "components/header.css";

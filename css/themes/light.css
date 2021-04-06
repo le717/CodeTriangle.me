@@ -42,3 +42,29 @@ body.light {
 .light hr {
   @apply hidden;
 }
+
+
+.light .lightbox-wrapper {
+  @apply bg-white;
+}
+
+.light .lightbox-wrapper .btn-close {
+  @apply text-blue-400;
+}
+
+.light .lightbox-wrapper .btn-previous,
+.light .lightbox-wrapper .btn-next {
+  @apply bg-blue-400;
+  @apply text-gray-200;
+  @apply shadow;
+}
+
+.light .lightbox-wrapper .btn-previous:hover,
+.light .lightbox-wrapper .btn-next:hover,
+.light .lightbox-wrapper .btn-previous:active,
+.light .lightbox-wrapper .btn-next:active,
+.light .lightbox-wrapper .btn-previous:focus,
+.light .lightbox-wrapper .btn-next:focus {
+  @apply text-gray-900;
+  @apply bg-gray-200;
+}
